@@ -1,10 +1,7 @@
 
-import Cropper from "cropperjs";
 // @ts-ignore
-
-//lsp: modified below line as no cropper.css found  --2026-5
-//import cropperCss from "cropperjs/dist/cropper.css";
-
+import cropperCss from "cropperjs/dist/cropper.css";
+import Cropper from "cropperjs";
 import type { CSSResultGroup, PropertyValues, TemplateResult } from "lit";
 import { css, html, LitElement, nothing, unsafeCSS } from "lit";
 import { customElement, property, query, state } from "lit/decorators";

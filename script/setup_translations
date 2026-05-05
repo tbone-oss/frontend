@@ -7,3 +7,4 @@ set -e
 cd "$(dirname "$0")/.."
 
 ./node_modules/.bin/gulp setup-and-fetch-nightly-translations
+#/home/vscode/.nvm/versions/node/v24.15.0/bin/gulp setup-and-fetch-nightly-translations

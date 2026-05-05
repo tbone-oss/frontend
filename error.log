@@ -1,0 +1,1061 @@
+[06:13:45] Using gulpfile /workspaces/frontend/gulpfile.js
+[06:13:45] Starting 'develop-app'...
+[06:13:45] Starting 'setEnv'...
+[06:13:45] Finished 'setEnv' after 732 μs
+[06:13:45] Starting 'clean'...
+[06:13:45] Starting 'clean-translations'...
+[06:13:45] Starting '<anonymous>'...
+[06:13:46] Finished '<anonymous>' after 128 ms
+[06:13:46] Finished 'clean-translations' after 132 ms
+[06:13:46] Finished 'clean' after 133 ms
+[06:13:46] Starting 'gen-service-worker-app-dev'...
+[06:13:46] Starting 'gen-icons-json'...
+[06:13:46] Starting 'gen-pages-app-dev'...
+[06:13:46] Starting 'build-translations'...
+[06:13:46] Starting 'build-locale-data'...
+[06:13:46] Finished 'gen-icons-json' after 98 ms
+[06:13:46] Starting 'clean-locale-data'...
+[06:13:46] Starting 'fetch-nightly-translations'...
+[06:13:46] Starting 'clean-translations'...
+[06:13:46] Finished 'gen-pages-app-dev' after 181 ms
+[06:13:46] Finished 'clean-locale-data' after 2.05 ms
+[06:13:46] Starting 'create-locale-data'...
+[06:13:46] Finished 'clean-translations' after 2.46 ms
+[06:13:46] Starting 'makeWorkDir'...
+[06:13:46] Finished 'makeWorkDir' after 822 μs
+[06:13:46] Finished 'gen-service-worker-app-dev' after 185 ms
+Keeping current translations (only 4.1 hours old)
+[06:13:46] Finished 'fetch-nightly-translations' after 5.88 ms
+[06:13:46] Starting 'createTestTranslation'...
+[06:13:46] Finished 'createTestTranslation' after 262 ms
+[06:13:46] Starting 'createMasterTranslation'...
+[06:13:46] Finished 'create-locale-data' after 307 ms
+[06:13:46] Finished 'build-locale-data' after 488 ms
+[06:13:46] Finished 'createMasterTranslation' after 42 ms
+[06:13:46] Starting 'createTranslations'...
+[06:13:49] Finished 'createTranslations' after 3.42 s
+[06:13:49] Starting 'writeTranslationMetaData'...
+[06:13:49] Finished 'writeTranslationMetaData' after 2.25 ms
+[06:13:49] Finished 'build-translations' after 3.91 s
+[06:13:49] Starting 'copy-static-app'...
+[06:13:50] Finished 'copy-static-app' after 152 ms
+[06:13:50] Starting 'rspack-watch-app'...
+[webpackbar] ℹ Compiling Build
+[webpackbar] ✔ Build: Compiled with some errors in 6.77s
+681 assets
+4019 modules
+
+ERROR in ./src/components/ha-check-list-item.ts 2:1-81
+  × Module not found: Can't resolve '@material/mwc-list/mwc-check-list-item-base' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { CheckListItemBase } from "@material/mwc-list/mwc-check-list-item-base";
+   · ────────────────────────────────────────────────────────────────────────────────
+ 3 │ import { styles as controlStyles } from "@material/mwc-list/mwc-control-list-item.css";
+ 4 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+   ╰────
+
+ERROR in ./src/components/ha-check-list-item.ts 3:1-88
+  × Module not found: Can't resolve '@material/mwc-list/mwc-control-list-item.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { CheckListItemBase } from "@material/mwc-list/mwc-check-list-item-base";
+ 3 │ import { styles as controlStyles } from "@material/mwc-list/mwc-control-list-item.css";
+   · ───────────────────────────────────────────────────────────────────────────────────────
+ 4 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+ 5 │ import { css, html, nothing } from "lit";
+   ╰────
+
+ERROR in ./src/components/ha-check-list-item.ts 4:1-63
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-item.css' in '/workspaces/frontend/src/components'
+   ╭─[4:0]
+ 2 │ import { CheckListItemBase } from "@material/mwc-list/mwc-check-list-item-base";
+ 3 │ import { styles as controlStyles } from "@material/mwc-list/mwc-control-list-item.css";
+ 4 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+   · ──────────────────────────────────────────────────────────────
+ 5 │ import { css, html, nothing } from "lit";
+ 6 │ import { customElement, property } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-code-editor.ts 14:1-73
+  × Module not found: Can't resolve '@codemirror/commands' in '/workspaces/frontend/src/components'
+    ╭─[14:0]
+ 12 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 13 │ import "@home-assistant/webawesome/dist/components/popup/popup";
+ 14 │ import { redo, redoDepth, undo, undoDepth } from "@codemirror/commands";
+    · ────────────────────────────────────────────────────────────────────────
+ 15 │ import { placeholder } from "@codemirror/view";
+ 16 │ const mdiArrowCollapse = "M19.5,3.09L15,7.59V4H13V11H20V9H16.41L20.91,4.5L19.5,3.09M4,13V15H7.59L3.09,19.5L4.5,20.91L9,16.41V20H11V13H4Z";
+    ╰────
+
+ERROR in ./src/components/ha-code-editor.ts 15:1-48
+  × Module not found: Can't resolve '@codemirror/view' in '/workspaces/frontend/src/components'
+    ╭─[15:0]
+ 13 │ import "@home-assistant/webawesome/dist/components/popup/popup";
+ 14 │ import { redo, redoDepth, undo, undoDepth } from "@codemirror/commands";
+ 15 │ import { placeholder } from "@codemirror/view";
+    · ───────────────────────────────────────────────
+ 16 │ const mdiArrowCollapse = "M19.5,3.09L15,7.59V4H13V11H20V9H16.41L20.91,4.5L19.5,3.09M4,13V15H7.59L3.09,19.5L4.5,20.91L9,16.41V20H11V13H4Z";
+ 17 │ const mdiArrowExpand = "M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z";
+    ╰────
+
+ERROR in ./src/components/ha-control-circular-slider.ts 12:1-91
+  × Module not found: Can't resolve '@egjs/hammerjs' in '/workspaces/frontend/src/components'
+    ╭─[12:0]
+ 10 │ import "core-js/modules/es.set.union.v2.js";
+ 11 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 12 │ import { DIRECTION_ALL, Manager, Pan, Press, Tap, TouchMouseInput } from "@egjs/hammerjs";
+    · ──────────────────────────────────────────────────────────────────────────────────────────
+ 13 │ import { LitElement, css, html, nothing, svg } from "lit";
+ 14 │ import { customElement, property, query, queryAll, state } from "lit/decorators";
+    ╰────
+
+ERROR in ./src/components/ha-control-slider.ts 9:1-74
+  × Module not found: Can't resolve '@egjs/hammerjs' in '/workspaces/frontend/src/components'
+    ╭─[9:0]
+  7 │ import "core-js/modules/es.set.union.v2.js";
+  8 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+  9 │ import { DIRECTION_ALL, Manager, Pan, Press, Tap } from "@egjs/hammerjs";
+    · ─────────────────────────────────────────────────────────────────────────
+ 10 │ import { css, html, LitElement, nothing } from "lit";
+ 11 │ import { customElement, property, query, state } from "lit/decorators";
+    ╰────
+
+ERROR in ./src/components/ha-control-switch.ts 2:1-103
+  × Module not found: Can't resolve '@egjs/hammerjs' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { DIRECTION_HORIZONTAL, DIRECTION_VERTICAL, Manager, Press, Swipe, Tap } from "@egjs/hammerjs";
+   · ──────────────────────────────────────────────────────────────────────────────────────────────────────
+ 3 │ import { css, html, LitElement } from "lit";
+ 4 │ import { customElement, property, query } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-drawer.ts 3:1-67
+  × Module not found: Can't resolve '@material/mwc-drawer/mwc-drawer-base' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import "core-js/modules/es.array.push.js";
+ 2 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 3 │ import { DrawerBase } from "@material/mwc-drawer/mwc-drawer-base";
+   · ──────────────────────────────────────────────────────────────────
+ 4 │ import { styles } from "@material/mwc-drawer/mwc-drawer.css";
+ 5 │ import { css } from "lit";
+   ╰────
+
+ERROR in ./src/components/ha-drawer.ts 4:1-62
+  × Module not found: Can't resolve '@material/mwc-drawer/mwc-drawer.css' in '/workspaces/frontend/src/components'
+   ╭─[4:0]
+ 2 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 3 │ import { DrawerBase } from "@material/mwc-drawer/mwc-drawer-base";
+ 4 │ import { styles } from "@material/mwc-drawer/mwc-drawer.css";
+   · ─────────────────────────────────────────────────────────────
+ 5 │ import { css } from "lit";
+ 6 │ import { customElement, property } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-formfield.ts 2:1-76
+  × Module not found: Can't resolve '@material/mwc-formfield/mwc-formfield-base' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { FormfieldBase } from "@material/mwc-formfield/mwc-formfield-base";
+   · ───────────────────────────────────────────────────────────────────────────
+ 3 │ import { styles } from "@material/mwc-formfield/mwc-formfield.css";
+ 4 │ import { css, html } from "lit";
+   ╰────
+
+ERROR in ./src/components/ha-formfield.ts 3:1-68
+  × Module not found: Can't resolve '@material/mwc-formfield/mwc-formfield.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { FormfieldBase } from "@material/mwc-formfield/mwc-formfield-base";
+ 3 │ import { styles } from "@material/mwc-formfield/mwc-formfield.css";
+   · ───────────────────────────────────────────────────────────────────
+ 4 │ import { css, html } from "lit";
+ 5 │ import { customElement, property } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-header-bar.ts 3:1-82
+  × Module not found: Can't resolve '@material/top-app-bar/dist/mdc.top-app-bar.min.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ // @ts-ignore
+ 3 │ import topAppBarStyles from "@material/top-app-bar/dist/mdc.top-app-bar.min.css";
+   · ─────────────────────────────────────────────────────────────────────────────────
+ 4 │ import { css, html, LitElement, unsafeCSS } from "lit";
+ 5 │ import { customElement } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-hls-player.ts
+  × Module not found: Can't resolve 'hls.js/dist/hls.light.mjs' in '/workspaces/frontend/src/components'
+    ╭─[97:23]
+ 95 │     const masterPlaylistPromise = fetch(this._url);
+ 96 │     // eslint-disable-next-line @typescript-eslint/naming-convention
+ 97 │     const Hls = (await import("hls.js/dist/hls.light.mjs")).default;
+    ·                        ───────────────────────────────────
+ 98 │     if (!this.isConnected) {
+ 99 │       return;
+    ╰────
+
+ERROR in ./src/components/ha-hs-color-picker.ts 2:1-67
+  × Module not found: Can't resolve '@egjs/hammerjs' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { DIRECTION_ALL, Manager, Pan, Tap } from "@egjs/hammerjs";
+   · ──────────────────────────────────────────────────────────────────
+ 3 │ import { css, html, LitElement, svg } from "lit";
+ 4 │ import { customElement, property, query, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-list-item.ts 2:1-70
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-item-base' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { ListItemBase } from "@material/mwc-list/mwc-list-item-base";
+   · ─────────────────────────────────────────────────────────────────────
+ 3 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+ 4 │ import { css } from "lit";
+   ╰────
+
+ERROR in ./src/components/ha-list-item.ts 3:1-63
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-item.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { ListItemBase } from "@material/mwc-list/mwc-list-item-base";
+ 3 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+   · ──────────────────────────────────────────────────────────────
+ 4 │ import { css } from "lit";
+ 5 │ import { customElement } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-list.ts 2:1-61
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-base' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { ListBase } from "@material/mwc-list/mwc-list-base";
+   · ────────────────────────────────────────────────────────────
+ 3 │ import { styles } from "@material/mwc-list/mwc-list.css";
+ 4 │ import { customElement } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-list.ts 3:1-58
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { ListBase } from "@material/mwc-list/mwc-list-base";
+ 3 │ import { styles } from "@material/mwc-list/mwc-list.css";
+   · ─────────────────────────────────────────────────────────
+ 4 │ import { customElement } from "lit/decorators";
+ 5 │ export class HaList extends ListBase {}
+   ╰────
+
+ERROR in ./src/components/ha-qr-code.ts 6:1-29
+  × Module not found: Can't resolve 'qrcode' in '/workspaces/frontend/src/components'
+   ╭─[6:0]
+ 4 │ import { LitElement, css, html, nothing } from "lit";
+ 5 │ import { customElement, property, query, state } from "lit/decorators";
+ 6 │ import QRCode from "qrcode";
+   · ────────────────────────────
+ 7 │ import "./ha-alert";
+ 8 │ import { rgb2hex } from "../common/color/convert-color";
+   ╰────
+
+ERROR in ./src/components/ha-qr-scanner.ts 11:1-55
+  × Module not found: Can't resolve 'barcode-detector' in '/workspaces/frontend/src/components'
+    ╭─[11:0]
+  9 │ // The following import makes a better implementation available that is based on a
+ 10 │ // WebAssembly port of ZXing:
+ 11 │ import { prepareZXingModule } from "barcode-detector";
+    · ──────────────────────────────────────────────────────
+ 12 │ import { fireEvent } from "../common/dom/fire_event";
+ 13 │ import { addExternalBarCodeListener } from "../external_app/external_app_entrypoint";
+    ╰────
+
+ERROR in ./src/components/ha-radio-list-item.ts 3:1-81
+  × Module not found: Can't resolve '@material/mwc-list/mwc-radio-list-item-base' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { css } from "lit";
+ 3 │ import { RadioListItemBase } from "@material/mwc-list/mwc-radio-list-item-base";
+   · ────────────────────────────────────────────────────────────────────────────────
+ 4 │ import { styles as controlStyles } from "@material/mwc-list/mwc-control-list-item.css";
+ 5 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+   ╰────
+
+ERROR in ./src/components/ha-radio-list-item.ts 4:1-88
+  × Module not found: Can't resolve '@material/mwc-list/mwc-control-list-item.css' in '/workspaces/frontend/src/components'
+   ╭─[4:0]
+ 2 │ import { css } from "lit";
+ 3 │ import { RadioListItemBase } from "@material/mwc-list/mwc-radio-list-item-base";
+ 4 │ import { styles as controlStyles } from "@material/mwc-list/mwc-control-list-item.css";
+   · ───────────────────────────────────────────────────────────────────────────────────────
+ 5 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+ 6 │ import { customElement } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-radio-list-item.ts 5:1-63
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-item.css' in '/workspaces/frontend/src/components'
+   ╭─[5:0]
+ 3 │ import { RadioListItemBase } from "@material/mwc-list/mwc-radio-list-item-base";
+ 4 │ import { styles as controlStyles } from "@material/mwc-list/mwc-control-list-item.css";
+ 5 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+   · ──────────────────────────────────────────────────────────────
+ 6 │ import { customElement } from "lit/decorators";
+ 7 │ import { fireEvent } from "../common/dom/fire_event";
+   ╰────
+
+ERROR in ./src/components/ha-radio.ts 2:1-64
+  × Module not found: Can't resolve '@material/mwc-radio/mwc-radio-base' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { RadioBase } from "@material/mwc-radio/mwc-radio-base";
+   · ───────────────────────────────────────────────────────────────
+ 3 │ import { styles } from "@material/mwc-radio/mwc-radio.css";
+ 4 │ import { css } from "lit";
+   ╰────
+
+ERROR in ./src/components/ha-radio.ts 3:1-60
+  × Module not found: Can't resolve '@material/mwc-radio/mwc-radio.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { RadioBase } from "@material/mwc-radio/mwc-radio-base";
+ 3 │ import { styles } from "@material/mwc-radio/mwc-radio.css";
+   · ───────────────────────────────────────────────────────────
+ 4 │ import { css } from "lit";
+ 5 │ import { customElement } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-timezone-picker.ts 5:1-47
+  × Module not found: Can't resolve 'google-timezones-json' in '/workspaces/frontend/src/components'
+   ╭─[5:0]
+ 3 │ import "core-js/modules/es.iterator.map.js";
+ 4 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 5 │ import timezones from "google-timezones-json";
+   · ──────────────────────────────────────────────
+ 6 │ import { css, html, LitElement } from "lit";
+ 7 │ import { customElement, property } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-top-app-bar-fixed.ts 2:1-97
+  × Module not found: Can't resolve '@material/mwc-top-app-bar-fixed/mwc-top-app-bar-fixed-base' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { TopAppBarFixedBase } from "@material/mwc-top-app-bar-fixed/mwc-top-app-bar-fixed-base";
+   · ────────────────────────────────────────────────────────────────────────────────────────────────
+ 3 │ import { styles } from "@material/mwc-top-app-bar/mwc-top-app-bar.css";
+ 4 │ import { css } from "lit";
+   ╰────
+
+ERROR in ./src/components/ha-top-app-bar-fixed.ts 3:1-72
+  × Module not found: Can't resolve '@material/mwc-top-app-bar/mwc-top-app-bar.css' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { TopAppBarFixedBase } from "@material/mwc-top-app-bar-fixed/mwc-top-app-bar-fixed-base";
+ 3 │ import { styles } from "@material/mwc-top-app-bar/mwc-top-app-bar.css";
+   · ───────────────────────────────────────────────────────────────────────
+ 4 │ import { css } from "lit";
+ 5 │ import { customElement, property } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-two-pane-top-app-bar-fixed.ts 2:1-82
+  × Module not found: Can't resolve '@material/mwc-base/base-element' in '/workspaces/frontend/src/components'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { addHasRemoveClass, BaseElement } from "@material/mwc-base/base-element";
+   · ─────────────────────────────────────────────────────────────────────────────────
+ 3 │ import { supportsPassiveEventListener } from "@material/mwc-base/utils";
+ 4 │ import { strings } from "@material/top-app-bar/constants";
+   ╰────
+
+ERROR in ./src/components/ha-two-pane-top-app-bar-fixed.ts 3:1-73
+  × Module not found: Can't resolve '@material/mwc-base/utils' in '/workspaces/frontend/src/components'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { addHasRemoveClass, BaseElement } from "@material/mwc-base/base-element";
+ 3 │ import { supportsPassiveEventListener } from "@material/mwc-base/utils";
+   · ────────────────────────────────────────────────────────────────────────
+ 4 │ import { strings } from "@material/top-app-bar/constants";
+ 5 │ // eslint-disable-next-line import-x/no-named-as-default
+   ╰────
+
+ERROR in ./src/components/ha-two-pane-top-app-bar-fixed.ts 4:1-59
+  × Module not found: Can't resolve '@material/top-app-bar/constants' in '/workspaces/frontend/src/components'
+   ╭─[4:0]
+ 2 │ import { addHasRemoveClass, BaseElement } from "@material/mwc-base/base-element";
+ 3 │ import { supportsPassiveEventListener } from "@material/mwc-base/utils";
+ 4 │ import { strings } from "@material/top-app-bar/constants";
+   · ──────────────────────────────────────────────────────────
+ 5 │ // eslint-disable-next-line import-x/no-named-as-default
+ 6 │ import MDCFixedTopAppBarFoundation from "@material/top-app-bar/fixed/foundation";
+   ╰────
+
+ERROR in ./src/components/ha-two-pane-top-app-bar-fixed.ts 6:1-82
+  × Module not found: Can't resolve '@material/top-app-bar/fixed/foundation' in '/workspaces/frontend/src/components'
+   ╭─[6:0]
+ 4 │ import { strings } from "@material/top-app-bar/constants";
+ 5 │ // eslint-disable-next-line import-x/no-named-as-default
+ 6 │ import MDCFixedTopAppBarFoundation from "@material/top-app-bar/fixed/foundation";
+   · ─────────────────────────────────────────────────────────────────────────────────
+ 7 │ import { html, css, nothing } from "lit";
+ 8 │ import { property, query, customElement } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/components/ha-two-pane-top-app-bar-fixed.ts 10:1-72
+  × Module not found: Can't resolve '@material/mwc-top-app-bar/mwc-top-app-bar.css' in '/workspaces/frontend/src/components'
+    ╭─[10:0]
+  8 │ import { property, query, customElement } from "lit/decorators";
+  9 │ import { classMap } from "lit/directives/class-map";
+ 10 │ import { styles } from "@material/mwc-top-app-bar/mwc-top-app-bar.css";
+    · ───────────────────────────────────────────────────────────────────────
+ 11 │ import { haStyleScrollbar } from "../resources/styles";
+ 12 │ export const passiveEventOptionsIfSupported = supportsPassiveEventListener ? {
+    ╰────
+
+ERROR in ./src/components/map/ha-locations-editor.ts
+  × Module not found: Can't resolve 'leaflet-draw' in '/workspaces/frontend/src/components/map'
+     ╭─[242:57]
+ 240 │       return layers;
+ 241 │     });
+ 242 │     this._loadPromise = import("leaflet").then(module => import("leaflet-draw").then(() => {
+     ·                                                          ──────────────────────
+ 243 │       this.Leaflet = module.default;
+ 244 │       this._updateMarkers();
+     ╰────
+
+ERROR in ./src/components/media-player/dialog-media-manage.ts 13:1-44
+  × Module not found: Can't resolve '@lit-labs/motion' in '/workspaces/frontend/src/components/media-player'
+    ╭─[13:0]
+ 11 │ import "core-js/modules/es.set.union.v2.js";
+ 12 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 13 │ import { animate } from "@lit-labs/motion";
+    · ───────────────────────────────────────────
+ 14 │ const mdiCheckboxBlankOutline = "M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z";
+ 15 │ const mdiCheckboxMarkedOutline = "M19,19H5V5H15V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V11H19M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z";
+    ╰────
+
+ERROR in ./src/components/media-player/ha-media-player-browse.ts 15:1-59
+  × Cannot find module '@lit-labs/virtualizer/layouts/grid' for matched aliased key '@lit-labs/virtualizer/layouts/grid'
+
+ERROR in ./src/data/backup.ts 20:1-55
+  × Module not found: Can't resolve '@fullcalendar/core/internal' in '/workspaces/frontend/src/data'
+    ╭─[20:0]
+ 18 │ import "core-js/modules/web.url-search-params.has.js";
+ 19 │ import "core-js/modules/web.url-search-params.size.js";
+ 20 │ import { memoize } from "@fullcalendar/core/internal";
+    · ──────────────────────────────────────────────────────
+ 21 │ import { setHours, setMinutes } from "date-fns";
+ 22 │ import memoizeOne from "memoize-one";
+    ╰────
+
+ERROR in ./src/data/iconsets.ts 4:1-77
+  × Module not found: Can't resolve 'idb-keyval' in '/workspaces/frontend/src/data'
+   ╭─[4:0]
+ 2 │ import "core-js/modules/es.iterator.constructor.js";
+ 3 │ import "core-js/modules/es.iterator.for-each.js";
+ 4 │ import { clear, get, set, createStore, promisifyRequest } from "idb-keyval";
+   · ────────────────────────────────────────────────────────────────────────────
+ 5 │ import { promiseTimeout } from "../common/util/promise-timeout";
+ 6 │ import { iconMetadata } from "../resources/icon-metadata";
+   ╰────
+
+ERROR in ./src/dialogs/image-cropper-dialog/image-cropper-dialog.ts 5:1-33
+  × Module not found: Can't resolve 'cropperjs' in '/workspaces/frontend/src/dialogs/image-cropper-dialog'
+   ╭─[5:0]
+ 3 │ import "core-js/modules/web.url-search-params.size.js";
+ 4 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 5 │ import Cropper from "cropperjs";
+   · ────────────────────────────────
+ 6 │ // @ts-ignore
+ 7 │ import cropperCss from "cropperjs/dist/cropper.css";
+   ╰────
+
+ERROR in ./src/dialogs/image-cropper-dialog/image-cropper-dialog.ts 7:1-53
+  × Module not found: Can't resolve 'cropperjs/dist/cropper.css' in '/workspaces/frontend/src/dialogs/image-cropper-dialog'
+   ╭─[7:0]
+ 5 │ import Cropper from "cropperjs";
+ 6 │ // @ts-ignore
+ 7 │ import cropperCss from "cropperjs/dist/cropper.css";
+   · ────────────────────────────────────────────────────
+ 8 │ import { css, html, LitElement, nothing, unsafeCSS } from "lit";
+ 9 │ import { customElement, property, query, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/entrypoints/app.ts 1:1-91
+  × Module not found: Can't resolve '@webcomponents/scoped-custom-element-registry/scoped-custom-element-registry.min' in '/workspaces/frontend/src/entrypoints'
+   ╭─[1:0]
+ 1 │ import "@webcomponents/scoped-custom-element-registry/scoped-custom-element-registry.min";
+   · ──────────────────────────────────────────────────────────────────────────────────────────
+ 2 │ import "../layouts/home-assistant";
+ 3 │ import("../resources/append-ha-style");
+   ╰────
+
+ERROR in ./src/panels/calendar/ha-full-calendar.ts 8:1-47
+  × Module not found: Can't resolve '@fullcalendar/core' in '/workspaces/frontend/src/panels/calendar'
+    ╭─[8:0]
+  6 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+  7 │ import { TZDate } from "@date-fns/tz";
+  8 │ import { Calendar } from "@fullcalendar/core";
+    · ──────────────────────────────────────────────
+  9 │ import allLocales from "@fullcalendar/core/locales-all";
+ 10 │ import dayGridPlugin from "@fullcalendar/daygrid";
+    ╰────
+
+ERROR in ./src/panels/calendar/ha-full-calendar.ts 9:1-57
+  × Module not found: Can't resolve '@fullcalendar/core/locales-all' in '/workspaces/frontend/src/panels/calendar'
+    ╭─[9:0]
+  7 │ import { TZDate } from "@date-fns/tz";
+  8 │ import { Calendar } from "@fullcalendar/core";
+  9 │ import allLocales from "@fullcalendar/core/locales-all";
+    · ────────────────────────────────────────────────────────
+ 10 │ import dayGridPlugin from "@fullcalendar/daygrid";
+ 11 │ import interactionPlugin from "@fullcalendar/interaction";
+    ╰────
+
+ERROR in ./src/panels/calendar/ha-full-calendar.ts 10:1-51
+  × Module not found: Can't resolve '@fullcalendar/daygrid' in '/workspaces/frontend/src/panels/calendar'
+    ╭─[10:0]
+  8 │ import { Calendar } from "@fullcalendar/core";
+  9 │ import allLocales from "@fullcalendar/core/locales-all";
+ 10 │ import dayGridPlugin from "@fullcalendar/daygrid";
+    · ──────────────────────────────────────────────────
+ 11 │ import interactionPlugin from "@fullcalendar/interaction";
+ 12 │ import listPlugin from "@fullcalendar/list";
+    ╰────
+
+ERROR in ./src/panels/calendar/ha-full-calendar.ts 11:1-59
+  × Module not found: Can't resolve '@fullcalendar/interaction' in '/workspaces/frontend/src/panels/calendar'
+    ╭─[11:0]
+  9 │ import allLocales from "@fullcalendar/core/locales-all";
+ 10 │ import dayGridPlugin from "@fullcalendar/daygrid";
+ 11 │ import interactionPlugin from "@fullcalendar/interaction";
+    · ──────────────────────────────────────────────────────────
+ 12 │ import listPlugin from "@fullcalendar/list";
+ 13 │ import { ResizeController } from "@lit-labs/observers/resize-controller";
+    ╰────
+
+ERROR in ./src/panels/calendar/ha-full-calendar.ts 12:1-45
+  × Module not found: Can't resolve '@fullcalendar/list' in '/workspaces/frontend/src/panels/calendar'
+    ╭─[12:0]
+ 10 │ import dayGridPlugin from "@fullcalendar/daygrid";
+ 11 │ import interactionPlugin from "@fullcalendar/interaction";
+ 12 │ import listPlugin from "@fullcalendar/list";
+    · ────────────────────────────────────────────
+ 13 │ import { ResizeController } from "@lit-labs/observers/resize-controller";
+ 14 │ const mdiPlus = "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z";
+    ╰────
+
+ERROR in ./src/panels/calendar/ha-full-calendar.ts
+  × Module not found: Can't resolve '@fullcalendar/luxon3' in '/workspaces/frontend/src/panels/calendar'
+     ╭─[180:91]
+ 178 │   }
+ 179 │   async _loadCalendar(initialView) {
+ 180 │     const luxonPlugin = this.hass.locale.time_zone === TimeZone.local ? undefined : (await import("@fullcalendar/luxon3")).default;
+     ·                                                                                            ──────────────────────────────
+ 181 │     const config = {
+ 182 │       ...defaultFullCalendarConfig,
+     ╰────
+
+ERROR in ./src/panels/calendar/ha-recurrence-rule-editor.ts 15:1-40
+  × Module not found: Can't resolve 'rrule' in '/workspaces/frontend/src/panels/calendar'
+    ╭─[15:0]
+ 13 │ import { LitElement, css, html, nothing } from "lit";
+ 14 │ import { customElement, property, state } from "lit/decorators";
+ 15 │ import { RRule, Weekday } from "rrule";
+    · ───────────────────────────────────────
+ 16 │ import { formatDate, formatTime } from "../../common/datetime/calc_date";
+ 17 │ import { firstWeekdayIndex } from "../../common/datetime/first_weekday";
+    ╰────
+
+ERROR in ./src/panels/calendar/recurrence.ts 7:1-51
+  × Module not found: Can't resolve 'rrule' in '/workspaces/frontend/src/panels/calendar'
+   ╭─[7:0]
+ 5 │ // and the values defined by rrule.js.
+ 6 │ import { addDays, addMonths, addWeeks, addYears, getDate, getDay, isLastDayOfMonth, isSameMonth } from "date-fns";
+ 7 │ import { Frequency, RRule, Weekday } from "rrule";
+   · ──────────────────────────────────────────────────
+ 8 │ import { formatDate } from "../../common/datetime/format_date";
+ 9 │ import { capitalizeFirstLetter } from "../../common/string/capitalize-first-letter";
+   ╰────
+
+ERROR in ./src/panels/config/automation/add-automation-element/ha-automation-add-search.ts 8:1-38
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list' in '/workspaces/frontend/src/panels/config/automation/add-automation-element'
+    ╭─[8:0]
+  6 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+  7 │ import { consume } from "@lit/context";
+  8 │ import "@material/mwc-list/mwc-list";
+    · ─────────────────────────────────────
+  9 │ const mdiPlus = "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z";
+ 10 │ const mdiTextureBox = "M20 2H4C2.9 2 2 2.9 2 4V20C2 21.11 2.9 22 4 22H20C21.11 22 22 21.11 22 20V4C22 2.9 21.11 2 20 2M4 6L6 4H10.9L4 10.9V6M4 13.7L13.7 4H18.6L4 18.6V13.7M20 18L18 20H13.1L20 13.1V18M20 10.3L10.3 20H5.4L20 5.4V10.3Z";
+    ╰────
+
+ERROR in ./src/panels/config/helpers/forms/ha-schedule-form.ts 5:1-47
+  × Module not found: Can't resolve '@fullcalendar/core' in '/workspaces/frontend/src/panels/config/helpers/forms'
+   ╭─[5:0]
+ 3 │ import "core-js/modules/es.iterator.for-each.js";
+ 4 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 5 │ import { Calendar } from "@fullcalendar/core";
+   · ──────────────────────────────────────────────
+ 6 │ import allLocales from "@fullcalendar/core/locales-all";
+ 7 │ import interactionPlugin from "@fullcalendar/interaction";
+   ╰────
+
+ERROR in ./src/panels/config/helpers/forms/ha-schedule-form.ts 6:1-57
+  × Module not found: Can't resolve '@fullcalendar/core/locales-all' in '/workspaces/frontend/src/panels/config/helpers/forms'
+   ╭─[6:0]
+ 4 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 5 │ import { Calendar } from "@fullcalendar/core";
+ 6 │ import allLocales from "@fullcalendar/core/locales-all";
+   · ────────────────────────────────────────────────────────
+ 7 │ import interactionPlugin from "@fullcalendar/interaction";
+ 8 │ import timeGridPlugin from "@fullcalendar/timegrid";
+   ╰────
+
+ERROR in ./src/panels/config/helpers/forms/ha-schedule-form.ts 7:1-59
+  × Module not found: Can't resolve '@fullcalendar/interaction' in '/workspaces/frontend/src/panels/config/helpers/forms'
+   ╭─[7:0]
+ 5 │ import { Calendar } from "@fullcalendar/core";
+ 6 │ import allLocales from "@fullcalendar/core/locales-all";
+ 7 │ import interactionPlugin from "@fullcalendar/interaction";
+   · ──────────────────────────────────────────────────────────
+ 8 │ import timeGridPlugin from "@fullcalendar/timegrid";
+ 9 │ import { addDays, isSameDay, isSameWeek, nextDay } from "date-fns";
+   ╰────
+
+ERROR in ./src/panels/config/helpers/forms/ha-schedule-form.ts 8:1-53
+  × Module not found: Can't resolve '@fullcalendar/timegrid' in '/workspaces/frontend/src/panels/config/helpers/forms'
+    ╭─[8:0]
+  6 │ import allLocales from "@fullcalendar/core/locales-all";
+  7 │ import interactionPlugin from "@fullcalendar/interaction";
+  8 │ import timeGridPlugin from "@fullcalendar/timegrid";
+    · ────────────────────────────────────────────────────
+  9 │ import { addDays, isSameDay, isSameWeek, nextDay } from "date-fns";
+ 10 │ import { LitElement, css, html, nothing } from "lit";
+    ╰────
+
+ERROR in ./src/panels/config/integrations/ha-integration-list-item.ts 2:1-70
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-item-base' in '/workspaces/frontend/src/panels/config/integrations'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { ListItemBase } from "@material/mwc-list/mwc-list-item-base";
+   · ─────────────────────────────────────────────────────────────────────
+ 3 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+ 4 │ const mdiDevices = "M3 6H21V4H3C1.9 4 1 4.9 1 6V18C1 19.1 1.9 20 3 20H7V18H3V6M13 12H9V13.78C8.39 14.33 8 15.11 8 16C8 16.89 8.39 17.67 9 18.22V20H13V18.22C13.61 17.67 14 16.88 14 16S13.61 14.33 13 13.78V12M11 17.5C10.17 17.5 9.5 16.83 9.5 16S10.17 14.5 11 14.5 12.5 15.17 12.5 16 11.83 17.5 11 17.5M22 8H16C15.5 8 15 8.5 15 9V19C15 19.5 15.5 20 16 20H22C22.5 20 23 19.5 23 19V9C23 8.5 22.5 8 22 8M21 18H17V10H21V18Z";
+   ╰────
+
+ERROR in ./src/panels/config/integrations/ha-integration-list-item.ts 3:1-63
+  × Module not found: Can't resolve '@material/mwc-list/mwc-list-item.css' in '/workspaces/frontend/src/panels/config/integrations'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { ListItemBase } from "@material/mwc-list/mwc-list-item-base";
+ 3 │ import { styles } from "@material/mwc-list/mwc-list-item.css";
+   · ──────────────────────────────────────────────────────────────
+ 4 │ const mdiDevices = "M3 6H21V4H3C1.9 4 1 4.9 1 6V18C1 19.1 1.9 20 3 20H7V18H3V6M13 12H9V13.78C8.39 14.33 8 15.11 8 16C8 16.89 8.39 17.67 9 18.22V20H13V18.22C13.61 17.67 14 16.88 14 16S13.61 14.33 13 13.78V12M11 17.5C10.17 17.5 9.5 16.83 9.5 16S10.17 14.5 11 14.5 12.5 15.17 12.5 16 11.83 17.5 11 17.5M22 8H16C15.5 8 15 8.5 15 9V19C15 19.5 15.5 20 16 20H22C22.5 20 23 19.5 23 19V9C23 8.5 22.5 8 22 8M21 18H17V10H21V18Z";
+ 5 │ const mdiFileCodeOutline = "M14 2H6C4.89 2 4 2.9 4 4V20C4 21.11 4.89 22 6 22H18C19.11 22 20 21.11 20 20V8L14 2M18 20H6V4H13V9H18V20M9.54 15.65L11.63 17.74L10.35 19L7 15.65L10.35 12.3L11.63 13.56L9.54 15.65M17 15.65L13.65 19L12.38 17.74L14.47 15.65L12.38 13.56L13.65 12.3L17 15.65Z";
+   ╰────
+
+ERROR in ./src/panels/config/voice-assistants/dialog-expose-entity.ts 8:1-32
+  × Module not found: Can't resolve '@lit-labs/virtualizer' in '/workspaces/frontend/src/panels/config/voice-assistants'
+    ╭─[8:0]
+  6 │ import "core-js/modules/es.iterator.map.js";
+  7 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+  8 │ import "@lit-labs/virtualizer";
+    · ───────────────────────────────
+  9 │ import { css, html, LitElement, nothing } from "lit";
+ 10 │ import { customElement, property, state } from "lit/decorators";
+    ╰────
+
+ERROR in ./src/panels/lovelace/cards/energy/hui-energy-sources-table-card.ts 8:1-80
+  × Module not found: Can't resolve '@material/data-table/dist/mdc.data-table.min.css' in '/workspaces/frontend/src/panels/lovelace/cards/energy'
+    ╭─[8:0]
+  6 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+  7 │ // @ts-ignore
+  8 │ import dataTableStyles from "@material/data-table/dist/mdc.data-table.min.css";
+    · ───────────────────────────────────────────────────────────────────────────────
+  9 │ import { css, html, LitElement, unsafeCSS, nothing } from "lit";
+ 10 │ import { customElement, property, state } from "lit/decorators";
+    ╰────
+
+ERROR in ./src/panels/lovelace/cards/hui-light-card.ts 3:1-36
+  × Module not found: Can't resolve '@thomasloven/round-slider' in '/workspaces/frontend/src/panels/lovelace/cards'
+   ╭─[3:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ const mdiDotsVertical = "M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z";
+ 3 │ import "@thomasloven/round-slider";
+   · ───────────────────────────────────
+ 4 │ import { LitElement, css, html, nothing } from "lit";
+ 5 │ import { customElement, property, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/editor/badge-editor/hui-dialog-edit-badge.ts 4:1-38
+  × Module not found: Can't resolve 'deep-freeze' in '/workspaces/frontend/src/panels/lovelace/editor/badge-editor'
+   ╭─[4:0]
+ 2 │ const mdiClose = "M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z";
+ 3 │ const mdiHelpCircleOutline = "M11,18H13V16H11V18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6Z";
+ 4 │ import deepFreeze from "deep-freeze";
+   · ─────────────────────────────────────
+ 5 │ import { css, html, LitElement, nothing } from "lit";
+ 6 │ import { customElement, property, query, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/editor/badge-editor/hui-dialog-suggest-badge.ts 4:1-38
+  × Module not found: Can't resolve 'deep-freeze' in '/workspaces/frontend/src/panels/lovelace/editor/badge-editor'
+   ╭─[4:0]
+ 2 │ import "core-js/modules/es.iterator.map.js";
+ 3 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 4 │ import deepFreeze from "deep-freeze";
+   · ─────────────────────────────────────
+ 5 │ import { css, html, LitElement, nothing } from "lit";
+ 6 │ import { customElement, property, query, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/editor/card-editor/ha-grid-layout-slider.ts 11:1-67
+  × Module not found: Can't resolve '@egjs/hammerjs' in '/workspaces/frontend/src/panels/lovelace/editor/card-editor'
+    ╭─[11:0]
+  9 │ import "core-js/modules/es.set.union.v2.js";
+ 10 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 11 │ import { DIRECTION_ALL, Manager, Pan, Tap } from "@egjs/hammerjs";
+    · ──────────────────────────────────────────────────────────────────
+ 12 │ import { LitElement, css, html, nothing } from "lit";
+ 13 │ import { customElement, property, query, state } from "lit/decorators";
+    ╰────
+
+ERROR in ./src/panels/lovelace/editor/card-editor/hui-dialog-delete-card.ts 2:1-38
+  × Module not found: Can't resolve 'deep-freeze' in '/workspaces/frontend/src/panels/lovelace/editor/card-editor'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import deepFreeze from "deep-freeze";
+   · ─────────────────────────────────────
+ 3 │ import { css, html, LitElement, nothing } from "lit";
+ 4 │ import { customElement, property, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/editor/card-editor/hui-dialog-edit-card.ts 4:1-38
+  × Module not found: Can't resolve 'deep-freeze' in '/workspaces/frontend/src/panels/lovelace/editor/card-editor'
+   ╭─[4:0]
+ 2 │ const mdiClose = "M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z";
+ 3 │ const mdiHelpCircleOutline = "M11,18H13V16H11V18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6Z";
+ 4 │ import deepFreeze from "deep-freeze";
+   · ─────────────────────────────────────
+ 5 │ import { LitElement, css, html, nothing } from "lit";
+ 6 │ import { customElement, property, query, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/editor/card-editor/hui-dialog-suggest-card.ts 4:1-38
+  × Module not found: Can't resolve 'deep-freeze' in '/workspaces/frontend/src/panels/lovelace/editor/card-editor'
+   ╭─[4:0]
+ 2 │ import "core-js/modules/es.iterator.map.js";
+ 3 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 4 │ import deepFreeze from "deep-freeze";
+   · ─────────────────────────────────────
+ 5 │ import { css, html, LitElement, nothing } from "lit";
+ 6 │ import { customElement, property, query, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/editor/config-elements/hui-clock-card-editor.ts 2:1-47
+  × Module not found: Can't resolve 'google-timezones-json' in '/workspaces/frontend/src/panels/lovelace/editor/config-elements'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import timezones from "google-timezones-json";
+   · ──────────────────────────────────────────────
+ 3 │ import { html, LitElement, nothing } from "lit";
+ 4 │ import { customElement, property, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/ha-panel-lovelace.ts 4:1-38
+  × Module not found: Can't resolve 'deep-freeze' in '/workspaces/frontend/src/panels/lovelace'
+   ╭─[4:0]
+ 2 │ import "core-js/modules/es.iterator.find.js";
+ 3 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 4 │ import deepFreeze from "deep-freeze";
+   · ─────────────────────────────────────
+ 5 │ import { html, LitElement } from "lit";
+ 6 │ import { customElement, property, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/lovelace/hui-editor.ts 2:1-50
+  × Module not found: Can't resolve '@codemirror/commands' in '/workspaces/frontend/src/panels/lovelace'
+   ╭─[2:0]
+ 1 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 2 │ import { undoDepth } from "@codemirror/commands";
+   · ─────────────────────────────────────────────────
+ 3 │ const mdiClose = "M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z";
+ 4 │ import { dump, load } from "js-yaml";
+   ╰────
+
+ERROR in ./src/panels/my/ha-panel-my.ts 3:1-55
+  × Module not found: Can't resolve '@braintree/sanitize-url' in '/workspaces/frontend/src/panels/my'
+   ╭─[3:0]
+ 1 │ import "core-js/modules/es.array.includes.js";
+ 2 │ import { _ as _ts_decorate } from "@swc/helpers/_/_ts_decorate";
+ 3 │ import { sanitizeUrl } from "@braintree/sanitize-url";
+   · ──────────────────────────────────────────────────────
+ 4 │ import { html, LitElement, nothing } from "lit";
+ 5 │ import { customElement, property, state } from "lit/decorators";
+   ╰────
+
+ERROR in ./src/panels/profile/ha-long-lived-access-token-dialog.ts
+  × Module not found: Can't resolve 'qrcode' in '/workspaces/frontend/src/panels/profile'
+     ╭─[180:25]
+ 178 │       return;
+ 179 │     }
+ 180 │     const qrcode = await import("qrcode");
+     ·                          ────────────────
+ 181 │     const canvas = await qrcode.toCanvas(this._token, {
+ 182 │       width: 512,
+     ╰────
+
+ERROR in ./src/resources/codemirror.ts 1:1-63
+  × Module not found: Can't resolve '@codemirror/commands' in '/workspaces/frontend/src/resources'
+   ╭─[1:0]
+ 1 │ import { indentLess, indentMore } from "@codemirror/commands";
+   · ──────────────────────────────────────────────────────────────
+ 2 │ import { HighlightStyle, syntaxTree, syntaxHighlighting } from "@codemirror/language";
+ 3 │ import { jinja, closePercentBrace } from "@codemirror/lang-jinja";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 2:1-87
+  × Module not found: Can't resolve '@codemirror/language' in '/workspaces/frontend/src/resources'
+   ╭─[2:0]
+ 1 │ import { indentLess, indentMore } from "@codemirror/commands";
+ 2 │ import { HighlightStyle, syntaxTree, syntaxHighlighting } from "@codemirror/language";
+   · ──────────────────────────────────────────────────────────────────────────────────────
+ 3 │ import { jinja, closePercentBrace } from "@codemirror/lang-jinja";
+ 4 │ import { yaml } from "@codemirror/lang-yaml";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 3:1-67
+  × Module not found: Can't resolve '@codemirror/lang-jinja' in '/workspaces/frontend/src/resources'
+   ╭─[3:0]
+ 1 │ import { indentLess, indentMore } from "@codemirror/commands";
+ 2 │ import { HighlightStyle, syntaxTree, syntaxHighlighting } from "@codemirror/language";
+ 3 │ import { jinja, closePercentBrace } from "@codemirror/lang-jinja";
+   · ──────────────────────────────────────────────────────────────────
+ 4 │ import { yaml } from "@codemirror/lang-yaml";
+ 5 │ import { Compartment, EditorState, Prec, RangeSetBuilder } from "@codemirror/state";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 4:1-46
+  × Module not found: Can't resolve '@codemirror/lang-yaml' in '/workspaces/frontend/src/resources'
+   ╭─[4:0]
+ 2 │ import { HighlightStyle, syntaxTree, syntaxHighlighting } from "@codemirror/language";
+ 3 │ import { jinja, closePercentBrace } from "@codemirror/lang-jinja";
+ 4 │ import { yaml } from "@codemirror/lang-yaml";
+   · ─────────────────────────────────────────────
+ 5 │ import { Compartment, EditorState, Prec, RangeSetBuilder } from "@codemirror/state";
+ 6 │ import { Decoration, EditorView, ViewPlugin } from "@codemirror/view";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 5:1-85
+  × Module not found: Can't resolve '@codemirror/state' in '/workspaces/frontend/src/resources'
+   ╭─[5:0]
+ 3 │ import { jinja, closePercentBrace } from "@codemirror/lang-jinja";
+ 4 │ import { yaml } from "@codemirror/lang-yaml";
+ 5 │ import { Compartment, EditorState, Prec, RangeSetBuilder } from "@codemirror/state";
+   · ────────────────────────────────────────────────────────────────────────────────────
+ 6 │ import { Decoration, EditorView, ViewPlugin } from "@codemirror/view";
+ 7 │ import { tags } from "@lezer/highlight";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 6:1-71
+  × Module not found: Can't resolve '@codemirror/view' in '/workspaces/frontend/src/resources'
+   ╭─[6:0]
+ 4 │ import { yaml } from "@codemirror/lang-yaml";
+ 5 │ import { Compartment, EditorState, Prec, RangeSetBuilder } from "@codemirror/state";
+ 6 │ import { Decoration, EditorView, ViewPlugin } from "@codemirror/view";
+   · ──────────────────────────────────────────────────────────────────────
+ 7 │ import { tags } from "@lezer/highlight";
+ 8 │ import { NodeProp } from "@lezer/common";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 7:1-41
+  × Module not found: Can't resolve '@lezer/highlight' in '/workspaces/frontend/src/resources'
+   ╭─[7:0]
+ 5 │ import { Compartment, EditorState, Prec, RangeSetBuilder } from "@codemirror/state";
+ 6 │ import { Decoration, EditorView, ViewPlugin } from "@codemirror/view";
+ 7 │ import { tags } from "@lezer/highlight";
+   · ────────────────────────────────────────
+ 8 │ import { NodeProp } from "@lezer/common";
+ 9 │ export { autocompletion, closeBrackets, closeBracketsKeymap, selectedCompletion } from "@codemirror/autocomplete";
+   ╰────
+
+ERROR in ./src/resources/codemirror.ts 8:1-42
+  × Module not found: Can't resolve '@lezer/common' in '/workspaces/frontend/src/resources'
+    ╭─[8:0]
+  6 │ import { Decoration, EditorView, ViewPlugin } from "@codemirror/view";
+  7 │ import { tags } from "@lezer/highlight";
+  8 │ import { NodeProp } from "@lezer/common";
+    · ─────────────────────────────────────────
+  9 │ export { autocompletion, closeBrackets, closeBracketsKeymap, selectedCompletion } from "@codemirror/autocomplete";
+ 10 │ export { defaultKeymap, history, historyKeymap } from "@codemirror/commands";
+    ╰────
+
+ERROR in ./src/resources/codemirror.ts 9:1-115
+  × Module not found: Can't resolve '@codemirror/autocomplete' in '/workspaces/frontend/src/resources'
+    ╭─[9:0]
+  7 │ import { tags } from "@lezer/highlight";
+  8 │ import { NodeProp } from "@lezer/common";
+  9 │ export { autocompletion, closeBrackets, closeBracketsKeymap, selectedCompletion } from "@codemirror/autocomplete";
+    · ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ 10 │ export { defaultKeymap, history, historyKeymap } from "@codemirror/commands";
+ 11 │ export { foldGutter, highlightingFor, bracketMatching, syntaxTree } from "@codemirror/language";
+    ╰────
+
+ERROR in ./src/resources/codemirror.ts 12:1-121
+  × Module not found: Can't resolve '@codemirror/search' in '/workspaces/frontend/src/resources'
+    ╭─[12:0]
+ 10 │ export { defaultKeymap, history, historyKeymap } from "@codemirror/commands";
+ 11 │ export { foldGutter, highlightingFor, bracketMatching, syntaxTree } from "@codemirror/language";
+ 12 │ export { closeSearchPanel, highlightSelectionMatches, openSearchPanel, search, searchKeymap } from "@codemirror/search";
+    · ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ 13 │ export { EditorState } from "@codemirror/state";
+ 14 │ export { crosshairCursor, drawSelection, EditorView, highlightActiveLine, keymap, lineNumbers, rectangularSelection, dropCursor, tooltips } from "@codemirror/view";
+    ╰────
+
+ERROR in ./src/resources/codemirror.ts 15:1-77
+  × Module not found: Can't resolve '@replit/codemirror-indentation-markers' in '/workspaces/frontend/src/resources'
+    ╭─[15:0]
+ 13 │ export { EditorState } from "@codemirror/state";
+ 14 │ export { crosshairCursor, drawSelection, EditorView, highlightActiveLine, keymap, lineNumbers, rectangularSelection, dropCursor, tooltips } from "@codemirror/view";
+ 15 │ export { indentationMarkers } from "@replit/codemirror-indentation-markers";
+    · ────────────────────────────────────────────────────────────────────────────
+ 16 │ export { tags } from "@lezer/highlight";
+ 17 │ const _yamlWithJinja = jinja({
+    ╰────
+
+ERROR in ./src/resources/hammer.ts 1:1-82
+  × Module not found: Can't resolve '@egjs/hammerjs' in '/workspaces/frontend/src/resources'
+   ╭────
+ 1 │ export { DIRECTION_LEFT, DIRECTION_RIGHT, Manager, Swipe } from "@egjs/hammerjs";
+   · ─────────────────────────────────────────────────────────────────────────────────
+   ╰────
+
+ERROR in ./src/resources/jinja_ha_completions.ts 13:1-62
+  × Module not found: Can't resolve '@codemirror/autocomplete' in '/workspaces/frontend/src/resources'
+    ╭─[13:0]
+ 11 │ import "core-js/modules/es.set.symmetric-difference.v2.js";
+ 12 │ import "core-js/modules/es.set.union.v2.js";
+ 13 │ import { snippetCompletion } from "@codemirror/autocomplete";
+    · ─────────────────────────────────────────────────────────────
+ 14 │ import { syntaxTree } from "@codemirror/language";
+ 15 │ function completions(words, type) {
+    ╰────
+
+ERROR in ./src/resources/jinja_ha_completions.ts 14:1-51
+  × Module not found: Can't resolve '@codemirror/language' in '/workspaces/frontend/src/resources'
+    ╭─[14:0]
+ 12 │ import "core-js/modules/es.set.union.v2.js";
+ 13 │ import { snippetCompletion } from "@codemirror/autocomplete";
+ 14 │ import { syntaxTree } from "@codemirror/language";
+    · ──────────────────────────────────────────────────
+ 15 │ function completions(words, type) {
+ 16 │   return words.map(label => ({
+    ╰────
+
+ERROR in ./src/resources/log-message.ts 9:1-43
+  × Module not found: Can't resolve 'stacktrace-js' in '/workspaces/frontend/src/resources'
+    ╭─[9:0]
+  7 │ import "core-js/modules/web.url-search-params.has.js";
+  8 │ import "core-js/modules/web.url-search-params.size.js";
+  9 │ import { fromError } from "stacktrace-js";
+    · ──────────────────────────────────────────
+ 10 │ // URL paths to remove from filenames and max stack trace lines for brevity
+ 11 │ const REMOVAL_PATHS = /^\/(?:home-assistant\/frontend\/[^/]+|unknown|\/{2}\.)\//;
+    ╰────
+
+ERROR in ./src/resources/particles.ts 1:1-51
+  × Module not found: Can't resolve '@tsparticles/engine' in '/workspaces/frontend/src/resources'
+   ╭─[1:0]
+ 1 │ import { tsParticles } from "@tsparticles/engine";
+   · ──────────────────────────────────────────────────
+ 2 │ import { loadLinksPreset } from "@tsparticles/preset-links";
+ 3 │ import { DefaultPrimaryColor } from "./theme/color/color.globals";
+   ╰────
+
+ERROR in ./src/resources/particles.ts 2:1-61
+  × Module not found: Can't resolve '@tsparticles/preset-links' in '/workspaces/frontend/src/resources'
+   ╭─[2:0]
+ 1 │ import { tsParticles } from "@tsparticles/engine";
+ 2 │ import { loadLinksPreset } from "@tsparticles/preset-links";
+   · ────────────────────────────────────────────────────────────
+ 3 │ import { DefaultPrimaryColor } from "./theme/color/color.globals";
+ 4 │ loadLinksPreset(tsParticles).then(() => {
+   ╰────
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 5:1-104
+  × Cannot find module '@formatjs/intl-listformat/should-polyfill' for matched aliased key '@formatjs/intl-listformat/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-pluralrules/polyfill-force' for matched aliased key '@formatjs/intl-pluralrules/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 4:1-122
+  × Cannot find module '@formatjs/intl-getcanonicallocales/should-polyfill' for matched aliased key '@formatjs/intl-getcanonicallocales/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 10:1-112
+  × Cannot find module '@formatjs/intl-durationformat/should-polyfill' for matched aliased key '@formatjs/intl-durationformat/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-getcanonicallocales/polyfill-force' for matched aliased key '@formatjs/intl-getcanonicallocales/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-durationformat/polyfill-force' for matched aliased key '@formatjs/intl-durationformat/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 3:1-108
+  × Cannot find module '@formatjs/intl-displaynames/should-polyfill' for matched aliased key '@formatjs/intl-displaynames/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-numberformat/polyfill-force' for matched aliased key '@formatjs/intl-numberformat/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 9:1-120
+  × Cannot find module '@formatjs/intl-relativetimeformat/should-polyfill' for matched aliased key '@formatjs/intl-relativetimeformat/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 8:1-106
+  × Cannot find module '@formatjs/intl-pluralrules/should-polyfill' for matched aliased key '@formatjs/intl-pluralrules/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-relativetimeformat/polyfill-force' for matched aliased key '@formatjs/intl-relativetimeformat/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-listformat/polyfill-force' for matched aliased key '@formatjs/intl-listformat/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 7:1-108
+  × Cannot find module '@formatjs/intl-numberformat/should-polyfill' for matched aliased key '@formatjs/intl-numberformat/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts 6:1-96
+  × Cannot find module '@formatjs/intl-locale/should-polyfill' for matched aliased key '@formatjs/intl-locale/should-polyfill'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-locale/polyfill-force' for matched aliased key '@formatjs/intl-locale/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Cannot find module '@formatjs/intl-displaynames/polyfill-force' for matched aliased key '@formatjs/intl-displaynames/polyfill-force'
+
+ERROR in ./src/resources/polyfills/intl-polyfill.ts
+  × Module not found: Can't resolve '@formatjs/intl-pluralrules/locale-data/en' in '/workspaces/frontend/src/resources/polyfills'
+    ╭─[48:10]
+ 46 │     // so only import English to avoid huge bundles
+ 47 │     // TODO: Setup JS imports instead of JSON fetches
+ 48 │     () => import("@formatjs/intl-pluralrules/locale-data/en")));
+    ·           ───────────────────────────────────────────────────
+ 49 │   }
+ 50 │   if (shouldPolyfillRelativeTimeFormat(locale)) {
+    ╰────
+
+ERROR in ./src/resources/sortable.ts 1:1-90
+  × Module not found: Can't resolve 'sortablejs/modular/sortable.core.esm' in '/workspaces/frontend/src/resources'
+   ╭─[1:0]
+ 1 │ import SortableCore, { AutoScroll, OnSpill } from "sortablejs/modular/sortable.core.esm";
+   · ─────────────────────────────────────────────────────────────────────────────────────────
+ 2 │ SortableCore.mount(OnSpill);
+ 3 │ SortableCore.mount(new AutoScroll());
+   ╰────
+
+ERROR in ./src/resources/virtualizer.ts
+  × Module not found: Can't resolve '@lit-labs/virtualizer' in '/workspaces/frontend/src/resources'
+   ╭─[2:8]
+ 1 │ export const loadVirtualizer = async () => {
+ 2 │   await import("@lit-labs/virtualizer");
+   ·         ───────────────────────────────
+ 3 │ };
+   ╰────
+
+frontend-modern (Rspack 2.0.1) compiled with 107 errors in 7.82 s
+[06:13:58] Build done @ 6:13:58 AM

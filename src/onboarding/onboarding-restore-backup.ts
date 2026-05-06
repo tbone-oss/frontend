@@ -205,7 +205,8 @@ class OnboardingRestoreBackup extends LitElement {
         }
         this._cloudStatus = await fetchHaCloudStatus();
       } catch (err: any) {
-        this._error = err?.message || "Cannot get Home Assistant Cloud status";
+        this._error =
+          err?.message || "Cannot get Univois Smart OS Cloud status";
       }
 
       if (this._cloudStatus?.logged_in && !this._backupId) {

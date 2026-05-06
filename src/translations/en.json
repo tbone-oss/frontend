@@ -633,8 +633,8 @@
         "triggered_by_event": "triggered by event",
         "triggered_by_time": "triggered by time",
         "triggered_by_time_pattern": "triggered by time pattern",
-        "triggered_by_homeassistant_stopping": "triggered by Home Assistant stopping",
-        "triggered_by_homeassistant_starting": "triggered by Home Assistant starting",
+        "triggered_by_homeassistant_stopping": "triggered by Univois Smart OS stopping",
+        "triggered_by_homeassistant_starting": "triggered by Univois Smart OS starting",
         "show_trace": "[%key:ui::panel::config::automation::editor::show_trace%]",
         "retrieval_error": "Could not load activity",
         "not_loaded": "[%key:ui::dialogs::helper_settings::platform_not_loaded%]",
@@ -1465,7 +1465,7 @@
       },
       "safe_mode": {
         "title": "Safe mode",
-        "text": "Home Assistant is running in safe mode, custom integrations and community frontend modules are not available. Restart Home Assistant to exit safe mode."
+        "text": "Univois Smart OS is running in safe mode, custom integrations and community frontend modules are not available. Restart Univois Smart OS to exit safe mode."
       },
       "quick-bar": {
         "commands_title": "Commands",
@@ -1508,7 +1508,7 @@
             "themes": "[%key:ui::panel::config::developer-tools::tabs::yaml::section::reloading::themes%]"
           },
           "home_assistant_control": {
-            "perform_action": "{action} Home Assistant",
+            "perform_action": "{action} Univois Smart OS",
             "restart": "[%key:ui::panel::config::developer-tools::tabs::yaml::section::server_management::restart%]",
             "stop": "[%key:ui::panel::config::developer-tools::tabs::yaml::section::server_management::stop%]"
           },
@@ -1567,13 +1567,13 @@
         },
         "filter_placeholder": "Search entities",
         "filter_placeholder_devices": "Search devices",
-        "title": "Search Home Assistant",
+        "title": "Search Univois Smart OS",
         "key_c_tip": "[%key:ui::tips::key_c_tip%]",
         "nothing_found": "Nothing found!"
       },
       "voice_command": {
         "title": "Assist",
-        "did_not_hear": "Home Assistant did not hear anything",
+        "did_not_hear": "Univois Smart OS did not hear anything",
         "did_not_understand": "Didn't quite get that",
         "found": "I found the following for you:",
         "error": "Oops, an error has occurred",
@@ -1583,8 +1583,8 @@
         "send_text": "Send text",
         "start_listening": "Start listening",
         "manage_assistants": "Manage assistants",
-        "not_supported_microphone_browser": "Your connection to Home Assistant is not secured using HTTPS. This causes browsers to block Home Assistant from accessing the microphone.",
-        "not_supported_microphone_documentation": "Use the Home Assistant app or visit {documentation_link} to learn how to use a secure URL",
+        "not_supported_microphone_browser": "Your connection to Univois Smart OS is not secured using HTTPS. This causes browsers to block Univois Smart OS from accessing the microphone.",
+        "not_supported_microphone_documentation": "Use the Univois Smart OS app or visit {documentation_link} to learn how to use a secure URL",
         "not_supported_microphone_documentation_link": "the documentation",
         "unknown_error_load_assist": "Loading the Assist pipeline failed",
         "not_found_error_load_assist": "Cannot find the Assist pipeline",
@@ -1654,13 +1654,13 @@
           "install": "Install",
           "update": "Update",
           "auto_update_enabled_title": "Cannot skip version",
-          "auto_update_enabled_text": "Automatic updates for this item have been enabled; skipping it is, therefore, unavailable. You can either install this update now or wait for Home Assistant to do it automatically.",
+          "auto_update_enabled_text": "Automatic updates for this item have been enabled; skipping it is, therefore, unavailable. You can either install this update now or wait for Univois Smart OS to do it automatically.",
           "create_backup": {
             "automatic": "Automatic backup before update",
             "automatic_description_last": "Last automatic backup {relative_time}.",
             "automatic_description_none": "No automatic backup yet.",
             "manual": "Create manual backup before update",
-            "manual_description": "Includes Home Assistant settings and history.",
+            "manual_description": "Includes Univois Smart OS settings and history.",
             "app": "Keep backup of the last version",
             "app_description": "For easily restoring to version {version}",
             "generic": "Create backup"
@@ -1907,9 +1907,9 @@
           "switch_as_x_confirm": "This switch will be hidden and a new {domain} will be added. Your existing configurations using the switch will continue to work.",
           "switch_as_x_remove_confirm": "This {domain} will be removed and the original switch will be visible again. Your existing configurations using the {domain} will no longer work!",
           "switch_as_x_change_confirm": "This {domain_1} will be removed and will be replaced by a new {domain_2}. Your existing configurations using the {domain_1} will no longer work!",
-          "enabled_description": "Disabled entities will not be added to Home Assistant.",
-          "enabled_delay_confirm": "The enabled entities will be added to Home Assistant in {delay} seconds",
-          "enabled_restart_confirm": "Restart Home Assistant to finish enabling the entities",
+          "enabled_description": "Disabled entities will not be added to Univois Smart OS.",
+          "enabled_delay_confirm": "The enabled entities will be added to Univois Smart OS in {delay} seconds",
+          "enabled_restart_confirm": "Restart Univois Smart OS to finish enabling the entities",
           "hidden_explanation": "Hidden entities will not be included in auto-populated dashboards or when their area, device or label is referenced. Their history is still tracked and you can still interact with them with actions.",
           "delete": "Delete",
           "confirm_delete_title": "Delete entity",
@@ -1932,7 +1932,7 @@
             "preload_stream": "Preload camera stream",
             "preload_stream_description": "This keeps the camera stream open in the background so it shows quicker. Warning! This is device intensive.",
             "stream_orientation": "Camera stream orientation",
-            "stream_orientation_description": "The orientation transformation to use for the camera stream.\nWarning: Stream orientation processing occurs on the Home Assistant device and may impact system performance. When possible, configure this setting directly on your camera instead.",
+            "stream_orientation_description": "The orientation transformation to use for the camera stream.\nWarning: Stream orientation processing occurs on the Univois Smart OS device and may impact system performance. When possible, configure this setting directly on your camera instead.",
             "stream_orientation_1": "No orientation transform",
             "stream_orientation_2": "Mirror",
             "stream_orientation_3": "Rotate 180",
@@ -1991,7 +1991,7 @@
         "view_entity": "More info about entity"
       },
       "restart": {
-        "heading": "Restart Home Assistant",
+        "heading": "Restart Univois Smart OS",
         "advanced_options": "Advanced options",
         "backup_in_progress": "A backup is currently being created. The action will automatically proceed once the backup process is complete.",
         "upload_in_progress": "A backup upload is currently in progress. The action will automatically proceed once the upload process is complete.",
@@ -2007,24 +2007,24 @@
           "failed": "Failed to reload configuration"
         },
         "restart": {
-          "title": "Restart Home Assistant",
+          "title": "Restart Univois Smart OS",
           "description": "Interrupts all running automations and scripts.",
-          "confirm_title": "Restart Home Assistant?",
+          "confirm_title": "Restart Univois Smart OS?",
           "confirm_description": "This will interrupt all running automations and scripts.",
           "confirm_action": "Restart",
           "confirm_action_backup": "Wait and restart",
-          "failed": "Failed to restart Home Assistant"
+          "failed": "Failed to restart Univois Smart OS"
         },
         "stop": {
-          "confirm_title": "Stop Home Assistant?",
+          "confirm_title": "Stop Univois Smart OS?",
           "confirm_description": "This will interrupt all running automations and scripts.",
           "confirm_action": "Stop"
         },
         "reboot": {
           "title": "Reboot system",
-          "description": "Restarts the system running Home Assistant and all apps.",
+          "description": "Restarts the system running Univois Smart OS and all apps.",
           "confirm_title": "Reboot system?",
-          "confirm_description": "This will reboot the complete system which includes Home Assistant and all apps.",
+          "confirm_description": "This will reboot the complete system which includes Univois Smart OS and all apps.",
           "confirm_action": "Reboot",
           "action_toast": "Rebooting system",
           "confirm_action_backup": "Wait and reboot",
@@ -2032,22 +2032,22 @@
         },
         "shutdown": {
           "title": "Shut down system",
-          "description": "Shuts down the system running Home Assistant and all apps.",
+          "description": "Shuts down the system running Univois Smart OS and all apps.",
           "confirm_title": "Shut down system?",
-          "confirm_description": "This will shut down the complete system which includes Home Assistant and all apps.",
+          "confirm_description": "This will shut down the complete system which includes Univois Smart OS and all apps.",
           "confirm_action": "Shut down",
           "confirm_action_backup": "Wait and shut down",
           "action_toast": "Shutting down system",
           "failed": "Failed to shut down system"
         },
         "restart-safe-mode": {
-          "title": "Restart Home Assistant in safe mode",
-          "description": "Restarts Home Assistant without loading any custom integrations and community frontend modules.",
-          "confirm_title": "Restart Home Assistant in safe mode?",
-          "confirm_description": "This will restart Home Assistant without loading any custom integrations and community frontend modules.",
+          "title": "Restart Univois Smart OS in safe mode",
+          "description": "Restarts Univois Smart OS without loading any custom integrations and community frontend modules.",
+          "confirm_title": "Restart Univois Smart OS in safe mode?",
+          "confirm_description": "This will restart Univois Smart OS without loading any custom integrations and community frontend modules.",
           "confirm_action": "Restart",
           "confirm_action_backup": "Wait and Restart",
-          "failed": "Failed to restart Home Assistant"
+          "failed": "Failed to restart Univois Smart OS"
         }
       },
       "aliases": {
@@ -2108,12 +2108,12 @@
           "minimum": "Minimum value",
           "maximum": "Maximum value",
           "initial": "Initial value",
-          "restore": "Restore the last known value when Home Assistant starts",
+          "restore": "Restore the last known value when Univois Smart OS starts",
           "step": "Step size"
         },
         "timer": {
           "duration": "Duration",
-          "restore": "Restore state and time when Home Assistant starts"
+          "restore": "Restore state and time when Univois Smart OS starts"
         },
         "schedule": {
           "delete": "Delete item?",
@@ -2161,8 +2161,8 @@
         "enable_new_entities_label": "Enable newly added entities",
         "enable_new_entities_description": "If newly discovered devices for {integration} should be automatically added.",
         "enable_polling_label": "Enable polling for changes",
-        "enable_polling_description": "If Home Assistant should automatically poll {integration} entities for state changes.",
-        "restart_home_assistant": "You need to restart Home Assistant for your changes to take effect.",
+        "enable_polling_description": "If Univois Smart OS should automatically poll {integration} entities for state changes.",
+        "restart_home_assistant": "You need to restart Univois Smart OS for your changes to take effect.",
         "update": "Update"
       },
       "zha_reconfigure_device": {
@@ -2261,7 +2261,7 @@
         "reasons": {
           "docker": "The Docker environment is not working properly",
           "oserror_bad_message": "Operating System error: Bad message",
-          "duplicate_os_installation": "Duplicate Home Assistant OS installation",
+          "duplicate_os_installation": "Duplicate Univois Smart OS OS installation",
           "privileged": "Supervisor is not privileged",
           "supervisor": "Supervisor was not able to update",
           "setup": "Setup of the Supervisor failed",
@@ -2309,7 +2309,7 @@
         },
         "new": {
           "header": "[%key:ui::dialogs::matter-add-device::main::header%]",
-          "note": "You need to use the Home Assistant Companion app on your mobile phone to add Matter devices.",
+          "note": "You need to use the Univois Smart OS Companion app on your mobile phone to add Matter devices.",
           "download_app": "Install it from the Google Play Store or the App Store if you don't have it. If you're already using the iOS app, make sure your iPhone or iPad is running iOS 16 or newer.",
           "playstore": "[%key:ui::panel::page-onboarding::welcome::playstore%]",
           "appstore": "[%key:ui::panel::page-onboarding::welcome::appstore%]"
@@ -2328,8 +2328,8 @@
           "step_3": "Tap {link_apps_services} and choose {home_assistant} from the list.",
           "linked_matter_apps_services": "Linked Matter apps and services",
           "link_apps_services": "Link apps and services",
-          "no_home_assistant": "I can't find Home Assistant on the list",
-          "redirect": "You are redirected to the Home Assistant app. Please follow the instructions."
+          "no_home_assistant": "I can't find Univois Smart OS on the list",
+          "redirect": "You are redirected to the Univois Smart OS app. Please follow the instructions."
         },
         "google_home_fallback": {
           "header": "Copy pairing code",
@@ -2403,7 +2403,7 @@
         },
         "other": {
           "title": "Other",
-          "my_link": "get My Home Assistant link",
+          "my_link": "get My Univois Smart OS link",
           "show_shortcuts": "show keyboard shortcuts"
         }
       }
@@ -2457,8 +2457,8 @@
     "notification_toast": {
       "action_failed": "Failed to perform the action {service}.",
       "connection_lost": "Connection lost. Reconnecting…",
-      "started": "Home Assistant has started!",
-      "starting": "Home Assistant is starting. Not everything will be available until it is finished.",
+      "started": "Univois Smart OS has started!",
+      "starting": "Univois Smart OS is starting. Not everything will be available until it is finished.",
       "wrapping_up_startup": "Wrapping up startup. Not everything will be available until it is finished.",
       "integration_starting": "Starting {integration}. Not everything will be available until it is finished.",
       "triggered": "Triggered {name}",
@@ -2535,14 +2535,14 @@
         }
       },
       "my": {
-        "not_supported": "This redirect is not supported by your Home Assistant instance. Check the {link} for the supported redirects and the version they where introduced.",
-        "component_not_loaded": "This redirect is not supported by your Home Assistant instance. You need the integration {integration} to use this redirect.",
-        "no_supervisor": "This redirect is not supported by your Home Assistant installation. It needs the Home Assistant OS installation method. For more information, see the {docs_link}.",
-        "not_app": "This redirect only works from a mobile device that has the Home Assistant Companion app installed. {link}.",
+        "not_supported": "This redirect is not supported by your Univois Smart OS instance. Check the {link} for the supported redirects and the version they where introduced.",
+        "component_not_loaded": "This redirect is not supported by your Univois Smart OS instance. You need the integration {integration} to use this redirect.",
+        "no_supervisor": "This redirect is not supported by your Univois Smart OS installation. It needs the Univois Smart OS OS installation method. For more information, see the {docs_link}.",
+        "not_app": "This redirect only works from a mobile device that has the Univois Smart OS Companion app installed. {link}.",
         "url_error": "The provided URL is invalid.",
         "documentation": "documentation",
         "download_app": "Click here to download the app",
-        "faq_link": "My Home Assistant FAQ",
+        "faq_link": "My Univois Smart OS FAQ",
         "error": "An unknown error occurred"
       },
       "config": {
@@ -2560,7 +2560,7 @@
             "actions": "Actions"
           }
         },
-        "header": "Configure Home Assistant",
+        "header": "Configure Univois Smart OS",
         "dashboard": {
           "devices": {
             "main": "Devices & services",
@@ -2572,11 +2572,11 @@
           },
           "backup": {
             "main": "Backup",
-            "secondary": "Generate backups of your Home Assistant configuration"
+            "secondary": "Generate backups of your Univois Smart OS configuration"
           },
           "apps": {
             "main": "Apps",
-            "secondary": "Run extra applications next to Home Assistant"
+            "secondary": "Run extra applications next to Univois Smart OS"
           },
           "dashboards": {
             "main": "Dashboards",
@@ -2668,7 +2668,7 @@
         },
         "updates": {
           "caption": "Updates",
-          "description": "Manage updates of Home Assistant, apps, and devices",
+          "description": "Manage updates of Univois Smart OS, apps, and devices",
           "no_updates": "No updates available",
           "no_update_entities": {
             "title": "Unable to check for updates",
@@ -2692,7 +2692,7 @@
         },
         "repairs": {
           "caption": "Repairs",
-          "description": "Find and fix issues with your Home Assistant instance",
+          "description": "Find and fix issues with your Univois Smart OS instance",
           "title": "{count} {count, plural,\n  one {repair}\n  other {repairs}\n}",
           "no_repairs": "There are currently no repairs pending",
           "more_repairs": "Show all repairs",
@@ -2739,7 +2739,7 @@
         },
         "ai_task": {
           "header": "AI suggestions",
-          "description": "Home Assistant can use generative AI to help you with tasks. Look for the button with the {button} icon throughout Home Assistant to get suggestions. Select an AI task entity to use this feature.",
+          "description": "Univois Smart OS can use generative AI to help you with tasks. Look for the button with the {button} icon throughout Univois Smart OS to get suggestions. Select an AI task entity to use this feature.",
           "gen_data_header": "Data generation tasks",
           "gen_data_description": "Suggest automation names.",
           "gen_image_header": "Image generation tasks",
@@ -2751,10 +2751,10 @@
           "error_loading": "Error loading apps",
           "info": {
             "what_is_an_app": "What is an app?",
-            "what_is_an_app_description": "Apps allow you to extend the functionality around Home Assistant by installing additional applications. They run alongside Home Assistant and provide extra features like network monitoring, code editors, database management, and more.",
+            "what_is_an_app_description": "Apps allow you to extend the functionality around Univois Smart OS by installing additional applications. They run alongside Univois Smart OS and provide extra features like network monitoring, code editors, database management, and more.",
             "why_not_available": "Why you see this page instead of an app store",
-            "why_not_available_description": "Apps are only available if you've used the Home Assistant Operating System installation method. If you installed Home Assistant using any other method then you cannot use apps. Often you can achieve the same result manually, refer to the documentation by the vendor of the application you'd like to install.",
-            "installation_hint": "Apps require the Home Assistant Operating System. Learn more about installation methods in the documentation.",
+            "why_not_available_description": "Apps are only available if you've used the Univois Smart OS Operating System installation method. If you installed Univois Smart OS using any other method then you cannot use apps. Often you can achieve the same result manually, refer to the documentation by the vendor of the application you'd like to install.",
+            "installation_hint": "Apps require the Univois Smart OS Operating System. Learn more about installation methods in the documentation.",
             "learn_more": "Learn more",
             "dismiss": "Don't show again"
           },
@@ -2845,7 +2845,7 @@
             "option": {
               "boot": {
                 "title": "Start on boot",
-                "description": "Automatically start this app when Home Assistant starts."
+                "description": "Automatically start this app when Univois Smart OS starts."
               },
               "watchdog": {
                 "title": "Watchdog",
@@ -2873,7 +2873,7 @@
                 "rating": "Rating",
                 "host": "Host",
                 "hardware": "Hardware access",
-                "core": "Home Assistant",
+                "core": "Univois Smart OS",
                 "docker": "Docker",
                 "host_pid": "Host PID",
                 "apparmor": "AppArmor",
@@ -2905,8 +2905,8 @@
                 "description": "This app has full access to the hardware."
               },
               "homeassistant_api": {
-                "title": "Home Assistant API",
-                "description": "This app has access to the Home Assistant API."
+                "title": "Univois Smart OS API",
+                "description": "This app has access to the Univois Smart OS API."
               },
               "hassio_api": {
                 "title": "Supervisor API",
@@ -3062,7 +3062,7 @@
           },
           "picker": {
             "header": "Areas",
-            "introduction": "Areas are used to organize where devices are. This information will be used throughout Home Assistant to help you in organizing your interface, permissions, and integrations with other systems.",
+            "introduction": "Areas are used to organize where devices are. This information will be used throughout Univois Smart OS to help you in organizing your interface, permissions, and integrations with other systems.",
             "introduction2": "To place devices in an area, use the link below to navigate to the integrations page and then click on a configured integration to get to the device cards.",
             "integrations_page": "Integrations page",
             "no_areas": "Looks like you have no areas yet!",
@@ -3119,7 +3119,7 @@
         "backup": {
           "caption": "Backups",
           "description": "Last backup {relative_time}",
-          "description_no_backup": "Manage backups and restore Home Assistant to a previous state",
+          "description_no_backup": "Manage backups and restore Univois Smart OS to a previous state",
           "create_backup": "Create backup",
           "creating_backup": "Backup is currently being created",
           "download_backup": "Download backup",
@@ -3152,7 +3152,7 @@
           "dialogs": {
             "local_backup_location": {
               "title": "Change default local backup location",
-              "description": "Change the default location where local backups are stored on your Home Assistant instance.",
+              "description": "Change the default location where local backups are stored on your Univois Smart OS instance.",
               "note": "This location will be used when you create a backup using the Supervisor actions in an automation for example.",
               "options": {
                 "default_backup_mount": {
@@ -3177,7 +3177,7 @@
               "supports_tar": "Supports .tar files",
               "unsupported": {
                 "title": "Unsupported file format",
-                "text": "Please choose a Home Assistant backup file (.tar)"
+                "text": "Please choose a Univois Smart OS backup file (.tar)"
               }
             },
             "generate": {
@@ -3191,8 +3191,8 @@
                   "custom": "Custom"
                 },
                 "ha_cloud_alert": {
-                  "title": "Home Assistant Cloud cannot synchronize",
-                  "description": "Add Home Assistant settings data to synchronize this backup to Home Assistant Cloud."
+                  "title": "Univois Smart OS Cloud cannot synchronize",
+                  "description": "Add Univois Smart OS settings data to synchronize this backup to Univois Smart OS Cloud."
                 }
               },
               "data": {
@@ -3228,7 +3228,7 @@
                 "input_label": "Encryption key"
               },
               "progress": {
-                "restarting": "Restarting Home Assistant",
+                "restarting": "Restarting Univois Smart OS",
                 "restoring": "Restoring backup"
               },
               "actions": {
@@ -3253,7 +3253,7 @@
               },
               "schedule": {
                 "title": "Automatic backups",
-                "description": "Let Home Assistant take care of your backups by creating a scheduled backup that also removes older backups."
+                "description": "Let Univois Smart OS take care of your backups by creating a scheduled backup that also removes older backups."
               },
               "data": {
                 "title": "Backup data",
@@ -3261,7 +3261,7 @@
               },
               "locations": {
                 "title": "Locations",
-                "description": "Home Assistant will upload to these locations when an automatic backup is made. You can use all locations for manual backups."
+                "description": "Univois Smart OS will upload to these locations when an automatic backup is made. You can use all locations for manual backups."
               },
               "save_and_create": "Save and create backup"
             },
@@ -3316,7 +3316,7 @@
           },
           "agents": {
             "cloud_agent_description": "Note: It stores only the most recent backup, regardless of your retention settings, with a maximum size of 5 GB.",
-            "cloud_agent_no_subcription": "You currently do not have an active Home Assistant Cloud subscription.",
+            "cloud_agent_no_subcription": "You currently do not have an active Univois Smart OS Cloud subscription.",
             "network_mount_agent_description": "Network storage",
             "unavailable_agents": "Unavailable locations",
             "no_agents": "No locations configured",
@@ -3327,7 +3327,7 @@
             "retention_days": "Keep {count} {count, plural,\n one {day}\n other {days}\n}"
           },
           "data": {
-            "ha_settings": "Home Assistant settings",
+            "ha_settings": "Univois Smart OS settings",
             "ha_settings_description": "The bare minimum needed to restore the system.",
             "ha_settings_included_description": "The bare minimum needed to restore the system. It is always included in automatic backup data.",
             "history": "History",
@@ -3364,9 +3364,9 @@
             "time": "Time",
             "custom_time": "Custom time",
             "custom_time_label": "Backup at",
-            "custom_time_description": "The optimal time is after Home Assistant finished cleaning up the database. This is done at {time}.",
+            "custom_time_description": "The optimal time is after Univois Smart OS finished cleaning up the database. This is done at {time}.",
             "schedule_description": "How often you want to create a backup.",
-            "schedule_time_description": "When the backup creation starts. By default Home Assistant picks the optimal time between {time_range_start} and {time_range_end}.",
+            "schedule_time_description": "When the backup creation starts. By default Univois Smart OS picks the optimal time between {time_range_start} and {time_range_end}.",
             "tip": "You can create your own custom backup automation with the {backup_create} action",
             "schedule_options": {
               "never": "Never",
@@ -3416,8 +3416,8 @@
             "set_encryption_key_action": "Set"
           },
           "emergency_kit_file": {
-            "title": "Home Assistant Backup Emergency Kit",
-            "description": "This emergency kit contains your backup encryption key. You need this key to be able to restore your Home Assistant backups.",
+            "title": "Univois Smart OS Backup Emergency Kit",
+            "description": "This emergency kit contains your backup encryption key. You need this key to be able to restore your Univois Smart OS backups.",
             "date": "Date:",
             "instance": "Instance:",
             "url": "URL:",
@@ -3454,7 +3454,7 @@
                   "docker_config": "Backing up Docker configuration",
                   "finishing_file": "Finishing backup file",
                   "folders": "Backing up folders",
-                  "home_assistant": "Backing up Home Assistant",
+                  "home_assistant": "Backing up Univois Smart OS",
                   "upload_to_agents": "Uploading to locations",
                   "cleaning_up": "Cleaning up"
                 },
@@ -3465,12 +3465,12 @@
                   "app_repositories": "Restoring app repositories",
                   "apps": "Restoring apps",
                   "await_app_restarts": "Waiting for apps to restart",
-                  "await_home_assistant_restart": "Waiting for Home Assistant to restart",
-                  "check_home_assistant": "Checking Home Assistant",
+                  "await_home_assistant_restart": "Waiting for Univois Smart OS to restart",
+                  "check_home_assistant": "Checking Univois Smart OS",
                   "docker_config": "Restoring Docker configuration",
                   "download_from_agent": "Downloading from location",
                   "folders": "Restoring folders",
-                  "home_assistant": "Restoring Home Assistant",
+                  "home_assistant": "Restoring Univois Smart OS",
                   "remove_delta_addons": "[%key:ui::panel::config::backup::overview::progress::description::restore_backup::remove_delta_apps%]",
                   "remove_delta_apps": "Removing delta apps"
                 },
@@ -3480,7 +3480,7 @@
                 }
               },
               "segments": {
-                "home_assistant": "Home Assistant",
+                "home_assistant": "Univois Smart OS",
                 "apps": "Apps",
                 "media": "Media",
                 "upload": "Uploading backup",
@@ -3537,7 +3537,7 @@
               "schedule_optimized_daily": "Daily",
               "schedule_optimized_days": "Every {days}",
               "schedule_never": "Automatic backups are not scheduled",
-              "data": "Home Assistant data that is included",
+              "data": "Univois Smart OS data that is included",
               "data_settings_history": "Settings and history",
               "data_settings_only": "Settings only",
               "apps": "Apps that are included",
@@ -3585,7 +3585,7 @@
             },
             "schedule": {
               "title": "Automatic backups",
-              "description": "Let Home Assistant take care of your backups by creating a scheduled backup that also removes older backups."
+              "description": "Let Univois Smart OS take care of your backups by creating a scheduled backup that also removes older backups."
             },
             "data": {
               "title": "Backup data"
@@ -3652,7 +3652,7 @@
             "error": "Could not fetch location details",
             "configuration": {
               "title": "Configuration",
-              "cloud_description": "Home Assistant Cloud backup stores only one backup. The oldest backups are deleted."
+              "cloud_description": "Univois Smart OS Cloud backup stores only one backup. The oldest backups are deleted."
             },
             "encryption": {
               "title": "Encryption",
@@ -3660,7 +3660,7 @@
               "location_encrypted": "Backups made to this location will be encrypted",
               "location_unencrypted": "Backups made to this location will be unencrypted",
               "location_encrypted_description": "Your data is private and secure by encrypting backups with your encryption key.",
-              "location_encrypted_cloud_description": "Home Assistant Cloud is the privacy-focused cloud. This is why it will only accept encrypted backups and why we don’t store your encryption key.",
+              "location_encrypted_cloud_description": "Univois Smart OS Cloud is the privacy-focused cloud. This is why it will only accept encrypted backups and why we don’t store your encryption key.",
               "location_encrypted_cloud_learn_more": "Learn more",
               "location_unencrypted_description": "Please keep your backups private and secure.",
               "encryption_turn_on": "Turn on",
@@ -3712,7 +3712,7 @@
           "tabs": {
             "assist": {
               "title": "Sentences parser",
-              "description": "Enter sentences and see how they will be parsed by Home Assistant. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
+              "description": "Enter sentences and see how they will be parsed by Univois Smart OS. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
               "parse_sentences": "Parse sentences",
               "sentences": "Sentences",
               "download_results": "Download results",
@@ -3764,7 +3764,7 @@
             },
             "actions": {
               "title": "Actions",
-              "description": "The actions dev tool allows you to perform any action available in Home Assistant.",
+              "description": "The actions dev tool allows you to perform any action available in Univois Smart OS.",
               "call_service": "Perform action",
               "response": "Response",
               "column_parameter": "Parameter",
@@ -3797,7 +3797,7 @@
             },
             "states": {
               "title": "States",
-              "description1": "Set the current state representation of an entity within Home Assistant.",
+              "description1": "Set the current state representation of an entity within Univois Smart OS.",
               "description2": "If the entity belongs to a device, there will be no actual communication with that device.",
               "entity": "Entity",
               "state": "State",
@@ -3817,7 +3817,7 @@
             },
             "templates": {
               "title": "Template",
-              "description": "Templates are rendered using the Jinja2 template engine with some Home Assistant specific extensions.",
+              "description": "Templates are rendered using the Jinja2 template engine with some Univois Smart OS specific extensions.",
               "editor": "Template editor",
               "result": "Result",
               "reset": "Reset to demo template",
@@ -3825,7 +3825,7 @@
               "confirm_clear": "Do you want to clear your current template?",
               "result_type": "Result type",
               "jinja_documentation": "Jinja2 template documentation",
-              "template_extensions": "Home Assistant template extensions",
+              "template_extensions": "Univois Smart OS template extensions",
               "unknown_error_template": "Unknown error rendering template",
               "time": "This template updates at the start of each minute.",
               "all_listeners": "This template listens for all state changed events.",
@@ -3942,9 +3942,9 @@
               "section": {
                 "validation": {
                   "heading": "Check and restart",
-                  "introduction": "A basic validation of the configuration is automatically done before restarting. The basic validation ensures the YAML configuration doesn't have errors which will prevent Home Assistant or any integration from starting. It's also possible to only do the basic validation check without restarting.",
+                  "introduction": "A basic validation of the configuration is automatically done before restarting. The basic validation ensures the YAML configuration doesn't have errors which will prevent Univois Smart OS or any integration from starting. It's also possible to only do the basic validation check without restarting.",
                   "check_config": "Check configuration",
-                  "valid": "Configuration will not prevent Home Assistant from starting!",
+                  "valid": "Configuration will not prevent Univois Smart OS from starting!",
                   "invalid": "Configuration invalid!",
                   "warnings": "Configuration warnings",
                   "errors": "Configuration errors"
@@ -3952,7 +3952,7 @@
                 "reloading": {
                   "all": "All YAML configuration",
                   "heading": "YAML configuration reloading",
-                  "introduction": "Some parts of Home Assistant can reload without requiring a restart. Selecting one of the options below will unload their current YAML configuration and load the new one.",
+                  "introduction": "Some parts of Univois Smart OS can reload without requiring a restart. Selecting one of the options below will unload their current YAML configuration and load the new one.",
                   "reload": "{domain}",
                   "core": "Location & customizations",
                   "group": "Groups, group entities, and notify services",
@@ -3989,11 +3989,11 @@
                   "themes": "Themes"
                 },
                 "server_management": {
-                  "heading": "Home Assistant",
+                  "heading": "Univois Smart OS",
                   "restart": "Restart",
                   "stop": "Stop",
-                  "confirm_stop": "Are you sure you want to stop Home Assistant?",
-                  "restart_error": "Failed to restart Home Assistant"
+                  "confirm_stop": "Are you sure you want to stop Univois Smart OS?",
+                  "restart_error": "Failed to restart Univois Smart OS"
                 }
               }
             }
@@ -4012,7 +4012,7 @@
           "delete_integration": "Are you sure you want to remove this integration? It will remove the entities it provides",
           "grid": {
             "title": "Electricity grid",
-            "sub": "Configure the amount of energy that you consume from the grid and, if you produce energy, give back to the grid. This allows Home Assistant to track your whole home energy usage.",
+            "sub": "Configure the amount of energy that you consume from the grid and, if you produce energy, give back to the grid. This allows Univois Smart OS to track your whole home energy usage.",
             "learn_more": "More information on how to get started",
             "grid_connections": "Grid connections",
             "add_connection": "Add grid connection",
@@ -4029,7 +4029,7 @@
               "energy_to_grid": "Energy exported to grid",
               "energy_to_helper": "Pick a sensor which measures grid export in either of {unit}.",
               "import_cost": "Cost tracking",
-              "import_cost_para": "Select how Home Assistant should keep track of the costs of the imported energy.",
+              "import_cost_para": "Select how Univois Smart OS should keep track of the costs of the imported energy.",
               "no_cost_tracking": "Do not track costs",
               "cost_stat": "Use an entity tracking the total costs",
               "cost_stat_label": "Entity with the total costs",
@@ -4073,7 +4073,7 @@
           },
           "solar": {
             "title": "Solar panels",
-            "sub": "Let Home Assistant monitor your solar panels and give you insight on their performance.",
+            "sub": "Let Univois Smart OS monitor your solar panels and give you insight on their performance.",
             "learn_more": "More information on how to get started",
             "solar_production": "Solar production",
             "edit_solar_production": "Edit solar production",
@@ -4123,7 +4123,7 @@
           },
           "gas": {
             "title": "Gas consumption",
-            "sub": "Let Home Assistant monitor your gas usage.",
+            "sub": "Let Univois Smart OS monitor your gas usage.",
             "learn_more": "More information on how to get started",
             "gas_consumption": "Gas consumption",
             "edit_gas_source": "Edit gas source",
@@ -4134,7 +4134,7 @@
               "paragraph": "Gas consumption is measured either as the volume of gas that flows to your home or as the amount of energy contained in the gas.",
               "entity_para": "Pick a sensor which measures gas consumption in either of {unit}.",
               "note_para": "Note: It is not possible to add both sensors measuring a volume of gas and sensors measuring the amount of energy contained in the gas.",
-              "cost_para": "Select how Home Assistant should keep track of the costs of the consumed gas.",
+              "cost_para": "Select how Univois Smart OS should keep track of the costs of the consumed gas.",
               "no_cost": "[%key:ui::panel::config::energy::grid::flow_dialog::from::no_cost%]",
               "cost_stat": "[%key:ui::panel::config::energy::grid::flow_dialog::from::cost_stat%]",
               "cost_stat_input": "[%key:ui::panel::config::energy::grid::flow_dialog::from::cost_stat_input%]",
@@ -4152,7 +4152,7 @@
           },
           "water": {
             "title": "Water consumption",
-            "sub": "Let Home Assistant monitor your water usage.",
+            "sub": "Let Univois Smart OS monitor your water usage.",
             "learn_more": "More information on how to get started",
             "water_consumption": "Water consumption",
             "edit_water_source": "Edit water source",
@@ -4162,7 +4162,7 @@
               "header": "Configure water consumption",
               "paragraph": "Water consumption is the volume of water that flows to your home.",
               "entity_para": "Pick a sensor which measures water consumption in either of {unit}.",
-              "cost_para": "Select how Home Assistant should keep track of the costs of the consumed water.",
+              "cost_para": "Select how Univois Smart OS should keep track of the costs of the consumed water.",
               "no_cost": "[%key:ui::panel::config::energy::grid::flow_dialog::from::no_cost%]",
               "cost_stat": "[%key:ui::panel::config::energy::grid::flow_dialog::from::cost_stat%]",
               "cost_stat_input": "[%key:ui::panel::config::energy::grid::flow_dialog::from::cost_stat_input%]",
@@ -4178,7 +4178,7 @@
           },
           "device_consumption": {
             "title": "Individual electrical devices",
-            "sub": "Tracking the energy usage of individual devices allows Home Assistant to break down your energy usage by device.",
+            "sub": "Tracking the energy usage of individual devices allows Univois Smart OS to break down your energy usage by device.",
             "learn_more": "More information on how to get started",
             "add_stat": "Pick entity to track energy of",
             "selected_stat": "Tracking energy for",
@@ -4197,7 +4197,7 @@
           },
           "device_consumption_water": {
             "title": "Individual water devices",
-            "sub": "Tracking the water usage of individual devices allows Home Assistant to break down your water usage by device.",
+            "sub": "Tracking the water usage of individual devices allows Univois Smart OS to break down your water usage by device.",
             "learn_more": "More information on how to get started",
             "devices": "Devices",
             "add_device": "Add device",
@@ -4295,18 +4295,18 @@
           }
         },
         "url": {
-          "caption": "Home Assistant URL",
-          "description": "Configure what website addresses Home Assistant should share with other devices when they need to fetch data from Home Assistant (e.g. to play text-to-speech or other hosted media).",
+          "caption": "Univois Smart OS URL",
+          "description": "Configure what website addresses Univois Smart OS should share with other devices when they need to fetch data from Univois Smart OS (e.g. to play text-to-speech or other hosted media).",
           "internal_url_label": "Local network",
           "external_url_label": "Internet",
-          "external_use_ha_cloud": "Use Home Assistant Cloud",
-          "manage_ha_cloud": "Manage Home Assistant Cloud",
-          "external_get_ha_cloud": "If you're looking for a fast and secure way to connect to Home Assistant no matter where you are, start a trial for Home Assistant Cloud today. Every purchase supports the development of Home Assistant.",
-          "ha_cloud_remote_not_enabled": "Your Home Assistant Cloud remote connection is currently not enabled.",
+          "external_use_ha_cloud": "Use Univois Smart OS Cloud",
+          "manage_ha_cloud": "Manage Univois Smart OS Cloud",
+          "external_get_ha_cloud": "If you're looking for a fast and secure way to connect to Univois Smart OS no matter where you are, start a trial for Univois Smart OS Cloud today. Every purchase supports the development of Univois Smart OS.",
+          "ha_cloud_remote_not_enabled": "Your Univois Smart OS Cloud remote connection is currently not enabled.",
           "enable_remote": "[%key:ui::common::enable%]",
           "internal_url_automatic": "Automatic",
           "internal_url_https_error_title": "Invalid local network URL",
-          "internal_url_https_error_description": "You have configured an HTTPS certificate in Home Assistant. This means that your internal URL needs to be set to a domain covered by the certificate.",
+          "internal_url_https_error_description": "You have configured an HTTPS certificate in Univois Smart OS. This means that your internal URL needs to be set to a domain covered by the certificate.",
           "internal_url_automatic_description": "Use the configured network settings",
           "internal_url_placeholder": "http://<some IP address>:8123",
           "invalid_url": "Invalid URL"
@@ -4345,7 +4345,7 @@
           "copy_raw": "Raw text",
           "copy_github": "For GitHub",
           "description": "Version, loaded integrations and links to documentation",
-          "home_assistant_logo": "Home Assistant logo",
+          "home_assistant_logo": "Univois Smart OS logo",
           "developed_by": "Developed by a bunch of awesome people.",
           "license": "Published under the Apache 2.0 license",
           "source": "Source:",
@@ -4506,7 +4506,7 @@
               "set_default": "Set as default",
               "remove_default": "Remove as default",
               "set_default_confirm_title": "Set as default dashboard?",
-              "set_default_confirm_text": "This dashboard will be shown to all users when opening Home Assistant.",
+              "set_default_confirm_text": "This dashboard will be shown to all users when opening Univois Smart OS.",
               "set_default_confirm_note": "Users who have chosen a specific dashboard in their profile will not be affected. They must set it back to \"Auto (use system settings)\" to use this dashboard.",
               "set_default_admin_only_title": "Can't set as default",
               "set_default_admin_only_text": "This dashboard is set to admin-only. Disable this limitation before setting it as default."
@@ -4646,7 +4646,7 @@
               "features": {
                 "assistants": {
                   "title": "Google Assistant and Amazon Alexa",
-                  "text": "Control all your Home Assistant devices via any Google Assistant-enabled or Alexa-enabled device."
+                  "text": "Control all your Univois Smart OS devices via any Google Assistant-enabled or Alexa-enabled device."
                 },
                 "speech": {
                   "title": "Amazing speech options for Assist",
@@ -4654,7 +4654,7 @@
                 },
                 "remote_access": {
                   "title": "Remote access",
-                  "text": "Secure remote access to your system while supporting the development of Home Assistant."
+                  "text": "Secure remote access to your system while supporting the development of Univois Smart OS."
                 }
               },
               "and_more": "And more",
@@ -4750,8 +4750,8 @@
             "check": {
               "title": "Hello!",
               "secondary": "Over the next couple steps we're going to personalize your voice assistant.",
-              "failed_title": "The voice assistant is unable to connect to Home Assistant",
-              "failed_secondary": "To play audio, the voice assistant device has to connect to Home Assistant to fetch the files. Our test shows that the device is unable to reach the Home Assistant server.",
+              "failed_title": "The voice assistant is unable to connect to Univois Smart OS",
+              "failed_secondary": "To play audio, the voice assistant device has to connect to Univois Smart OS to fetch the files. Our test shows that the device is unable to reach the Univois Smart OS server.",
               "help": "Help me",
               "retry": "Retry"
             },
@@ -4789,8 +4789,8 @@
               },
               "options": {
                 "cloud": {
-                  "label": "Home Assistant Cloud",
-                  "description": "Offloads speech processing to a fast, private cloud. Offering the highest accuracy and widest language support. Home Assistant Cloud is a subscription service that includes voice processing."
+                  "label": "Univois Smart OS Cloud",
+                  "description": "Offloads speech processing to a fast, private cloud. Offering the highest accuracy and widest language support. Univois Smart OS Cloud is a subscription service that includes voice processing."
                 },
                 "focused_local": {
                   "label": "Focused local processing",
@@ -4810,7 +4810,7 @@
               }
             },
             "cloud": {
-              "title": "The power of Home Assistant Cloud",
+              "title": "The power of Univois Smart OS Cloud",
               "register": {
                 "confirm_email": "Confirm email"
               }
@@ -4857,7 +4857,7 @@
           "description": "Create custom behavior rules for your home",
           "picker": {
             "header": "Automation editor",
-            "introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+            "introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured Univois Smart OS correctly.",
             "learn_more": "Learn more about automations",
             "pick_automation": "Pick automation to edit",
             "no_automations": "We couldn't find any automations",
@@ -4898,7 +4898,7 @@
               "disable": "Disable"
             },
             "empty_header": "Start automating",
-            "empty_text_1": "Automations make Home Assistant automatically respond to things happening in and around your home.",
+            "empty_text_1": "Automations make Univois Smart OS automatically respond to things happening in and around your home.",
             "empty_text_2": "Automations connect triggers to actions in a ''when trigger then action'' fashion with optional conditions. For example: ''When the sun sets and if {user} is home, then turn on the lights''.",
             "migrate_automation": "Migrate automation?",
             "migrate_automation_description": "You can migrate this automation, so it can be edited from the UI. After it is migrated and you have saved it, you will have to manually delete your old automation from your configuration. Do you want to migrate this automation?"
@@ -4914,7 +4914,7 @@
               "author": "By {author}",
               "local": "By you",
               "community": "By the community",
-              "homeassistant": "By Home Assistant"
+              "homeassistant": "By Univois Smart OS"
             },
             "discover_blueprint_tip": "Discover more community blueprints"
           },
@@ -5113,7 +5113,7 @@
                   "context_user_picked": "User firing event",
                   "context_user_pick": "Select user",
                   "description": {
-                    "picker": "Triggers when an event is being received (event is an advanced concept in Home Assistant).",
+                    "picker": "Triggers when an event is being received (event is an advanced concept in Univois Smart OS).",
                     "full": "When {eventTypes} event is fired"
                   }
                 },
@@ -5142,14 +5142,14 @@
                   }
                 },
                 "homeassistant": {
-                  "label": "Home Assistant",
+                  "label": "Univois Smart OS",
                   "event": "Event:",
                   "start": "Start",
                   "shutdown": "Shutdown",
                   "description": {
-                    "picker": "Triggers when Home Assistant starts up or shuts down.",
-                    "started": "When Home Assistant is started",
-                    "shutdown": "When Home Assistant is shut down"
+                    "picker": "Triggers when Univois Smart OS starts up or shuts down.",
+                    "started": "When Univois Smart OS is started",
+                    "shutdown": "When Univois Smart OS is shut down"
                   }
                 },
                 "mqtt": {
@@ -5280,7 +5280,7 @@
                   "webhook_id_helper": "Treat this ID like a password: keep it secret and make it hard to guess.",
                   "webhook_settings": "Webhook settings",
                   "description": {
-                    "picker": "Triggers when Home Assistant receives a web request to a webhook endpoint.",
+                    "picker": "Triggers when Univois Smart OS receives a web request to a webhook endpoint.",
                     "full": "When a Webhook payload has been received"
                   }
                 },
@@ -5606,7 +5606,7 @@
                   "event": "[%key:ui::panel::config::automation::editor::triggers::type::event::event_type%]",
                   "event_data": "[%key:ui::panel::config::automation::editor::triggers::type::event::event_data%]",
                   "description": {
-                    "picker": "Fires an event manually (event is an advanced concept in Home Assistant).",
+                    "picker": "Fires an event manually (event is an advanced concept in Univois Smart OS).",
                     "full": "Manually fire event {name}",
                     "template": "based on a template"
                   }
@@ -5895,7 +5895,7 @@
             "override_description": "Importing it will override the existing blueprint. If the updated blueprint is not compatible, it can break your automations. Automations will have to be adjusted manually.",
             "error_no_url": "Please enter the blueprint address.",
             "source_warning_title": "Review this blueprint source",
-            "source_warning_description": "This blueprint is not imported from GitHub or an official Home Assistant website. Only continue if you trust this source.",
+            "source_warning_description": "This blueprint is not imported from GitHub or an official Univois Smart OS website. Only continue if you trust this source.",
             "unsupported_blueprint": "This blueprint is not supported",
             "file_name": "Blueprint path"
           }
@@ -5905,7 +5905,7 @@
           "description": "Execute a sequence of actions",
           "picker": {
             "header": "Script editor",
-            "introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+            "introduction": "The script editor allows you to create and edit scripts. Please follow the link below to read the instructions to make sure that you have configured Univois Smart OS correctly.",
             "learn_more": "Learn more about scripts",
             "no_scripts": "We couldn't find any scripts",
             "add_script": "Create script",
@@ -6024,7 +6024,7 @@
           "activated": "Activated scene {name}.",
           "picker": {
             "header": "Scene editor",
-            "introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+            "introduction": "The scene editor allows you to create and edit scenes. Please follow the link below to read the instructions to make sure that you have configured Univois Smart OS correctly.",
             "learn_more": "Learn more about scenes",
             "pick_scene": "Pick scene to edit",
             "no_scenes": "We couldn't find any scenes",
@@ -6101,11 +6101,11 @@
           "description_features": "Control home when away and integrate with Alexa and Google Assistant",
           "login": {
             "title": "Cloud login",
-            "introduction": "Home Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
+            "introduction": "Univois Smart OS Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
             "introduction2": "This service is run by our partner ",
-            "introduction2a": ", a company founded by the founders of Home Assistant.",
-            "introduction3": "Home Assistant Cloud is a subscription service with a free one-month trial. No payment information necessary.",
-            "learn_more_link": "Learn more about Home Assistant Cloud",
+            "introduction2a": ", a company founded by the founders of Univois Smart OS.",
+            "introduction3": "Univois Smart OS Cloud is a subscription service with a free one-month trial. No payment information necessary.",
+            "learn_more_link": "Learn more about Univois Smart OS Cloud",
             "sign_in": "Sign in",
             "email": "Email",
             "email_error_msg": "Invalid email",
@@ -6123,8 +6123,8 @@
             "alert_mfa_code_required": "You need to enter your two-factor authentication code.",
             "alert_mfa_expired_or_not_started": "Multi-factor authentication expired, or not started. Please try again.",
             "alert_totp_code_invalid": "Invalid two-factor authentication code.",
-            "cloud_pipeline_title": "Want to use Home Assistant Cloud for your voice assistant?",
-            "cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from Home Assistant Cloud. Would you like to set this assistant as the preferred assistant?"
+            "cloud_pipeline_title": "Want to use Univois Smart OS Cloud for your voice assistant?",
+            "cloud_pipeline_text": "We created a new assistant for you, using the superior text-to-speech and speech-to-text engines from Univois Smart OS Cloud. Would you like to set this assistant as the preferred assistant?"
           },
           "forgot_password": {
             "title": "Forgot password",
@@ -6138,14 +6138,14 @@
           "register": {
             "title": "Register account",
             "headline": "Start your free trial",
-            "information": "Create an account to start your free one-month trial with Home Assistant Cloud. No payment information necessary.",
-            "information2": "The trial will give you access to all the benefits of Home Assistant Cloud, including:",
-            "feature_remote_control": "Control of Home Assistant away from home",
+            "information": "Create an account to start your free one-month trial with Univois Smart OS Cloud. No payment information necessary.",
+            "information2": "The trial will give you access to all the benefits of Univois Smart OS Cloud, including:",
+            "feature_remote_control": "Control of Univois Smart OS away from home",
             "feature_google_home": "Integration with Google Assistant",
             "feature_amazon_alexa": "Integration with Amazon Alexa",
             "feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
             "information3": "This service is run by our partner ",
-            "information3a": ", a company founded by the founders of Home Assistant.",
+            "information3a": ", a company founded by the founders of Univois Smart OS.",
             "information4": "By registering an account, you agree to the following terms and conditions.",
             "link_terms_conditions": "Terms and conditions",
             "link_privacy_policy": "Privacy policy",
@@ -6167,14 +6167,14 @@
             "reset_data_confirm_text": "This will reset all your cloud settings. This includes your remote connection, Google Assistant, and Amazon Alexa integrations. This action cannot be undone.",
             "reset": "Reset",
             "reset_data_failed": "Failed to reset cloud data",
-            "thank_you_note": "Thank you for being part of Home Assistant Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
+            "thank_you_note": "Thank you for being part of Univois Smart OS Cloud. It's because of people like you that we are able to make a great home automation experience for everyone. Thank you!",
             "nabu_casa_account": "Nabu Casa account",
             "connection_status": "Cloud connection status",
             "manage_account": "Manage account",
             "sign_out": "Sign out",
             "sign_out_confirm": "Are you sure you want to sign out?",
             "integrations": "Integrations",
-            "integrations_introduction": "Integrations for Home Assistant Cloud allow you to connect with services in the cloud without having to expose your Home Assistant instance publicly on the internet.",
+            "integrations_introduction": "Integrations for Univois Smart OS Cloud allow you to connect with services in the cloud without having to expose your Univois Smart OS instance publicly on the internet.",
             "integrations_introduction2": "Check the website for ",
             "integrations_link_all_features": " all available features",
             "tip_moved_voice_assistants": "Looking for Google Assistant and Amazon Alexa settings? They are moved to the new voice assistants page.",
@@ -6207,7 +6207,7 @@
               "cerificate_loading": "Your certificate is loading.",
               "cerificate_loaded": "Your certificate is loaded, waiting for validation.",
               "cerificate_error": "There was an error generating the certificate, check your logs.",
-              "info": "Home Assistant Cloud provides secure remote access to your instance while away from home. For more information on remote access and these settings, visit our security documentation.",
+              "info": "Univois Smart OS Cloud provides secure remote access to your instance while away from home. For more information on remote access and these settings, visit our security documentation.",
               "info_instance_will_be_available": "Your instance will be available at your Nabu Casa URL.",
               "link_learn_how_it_works": "Learn how it works",
               "security_options": "Security options",
@@ -6221,16 +6221,16 @@
             },
             "ice_servers": {
               "title": "WebRTC connections",
-              "info": "Home Assistant Cloud provides WebRTC servers. This improves your ability to view your camera streams when you are away from home.",
+              "info": "Univois Smart OS Cloud provides WebRTC servers. This improves your ability to view your camera streams when you are away from home.",
               "link_learn_how_it_works": "Learn how it works"
             },
             "alexa": {
               "title": "Alexa",
-              "info": "With the Alexa integration for Home Assistant Cloud you'll be able to control all your Home Assistant devices via any Alexa-enabled device.",
-              "enable_ha_skill": "Enable the Home Assistant skill for Alexa",
+              "info": "With the Alexa integration for Univois Smart OS Cloud you'll be able to control all your Univois Smart OS devices via any Alexa-enabled device.",
+              "enable_ha_skill": "Enable the Univois Smart OS skill for Alexa",
               "config_documentation": "Configuration documentation",
               "enable_state_reporting": "Enable state reporting",
-              "info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
+              "info_state_reporting": "If you enable state reporting, Univois Smart OS will send all state changes of exposed entities to Amazon. This allows you to always see the latest states in the Alexa app and use the state changes to create routines.",
               "state_reporting_error": "Unable to {enable_disable} report state.",
               "show_entities": "[%key:ui::panel::config::cloud::account::google::show_entities%]",
               "exposed_entities": "[%key:ui::panel::config::cloud::account::google::exposed_entities%]",
@@ -6238,19 +6238,19 @@
               "enable": "enable",
               "disable": "disable",
               "not_configured_title": "Continue setting up Alexa",
-              "not_configured_text": "Before you can use Alexa, you need to activate the Home Assistant skill for Alexa in the Alexa app.",
+              "not_configured_text": "Before you can use Alexa, you need to activate the Univois Smart OS skill for Alexa in the Alexa app.",
               "link_learn_how_it_works": "[%key:ui::panel::config::cloud::account::remote::link_learn_how_it_works%]",
               "expose_new_entities": "[%key:ui::panel::config::cloud::account::google::expose_new_entities%]",
               "expose_new_entities_info": "Should new entities be exposed to Alexa automatically? Exposes supported devices that are not classified as security devices."
             },
             "google": {
               "title": "Google Assistant",
-              "info": "With the Google Assistant integration for Home Assistant Cloud, you'll be able to control all your Home Assistant devices via any Google Assistant-enabled device.",
+              "info": "With the Google Assistant integration for Univois Smart OS Cloud, you'll be able to control all your Univois Smart OS devices via any Google Assistant-enabled device.",
               "http_use_ssl_warning_title": "Local communication unavailable",
-              "http_use_ssl_warning_text": "Google devices will not be able to talk locally with Home Assistant, because you have configured an SSL certificate for your HTTP integration.",
+              "http_use_ssl_warning_text": "Google devices will not be able to talk locally with Univois Smart OS, because you have configured an SSL certificate for your HTTP integration.",
               "config_documentation": "Configuration documentation",
               "enable_state_reporting": "Enable state reporting",
-              "info_state_reporting": "If you enable state reporting, Home Assistant will send all state changes of exposed entities to Google. This speeds up voice commands and allows you to always see the latest states in the Google app.",
+              "info_state_reporting": "If you enable state reporting, Univois Smart OS will send all state changes of exposed entities to Google. This speeds up voice commands and allows you to always see the latest states in the Google app.",
               "security_devices": "Security devices",
               "enter_pin_info": "Please enter a PIN to interact with security devices. Security devices are doors, garage doors, and locks. You will be asked to say/enter this PIN when interacting with security devices via Google Assistant.",
               "devices_pin": "Security devices PIN",
@@ -6260,14 +6260,14 @@
               "manual_config": "Editing which entities are exposed via the UI is disabled because you have configured entity filters in configuration.yaml.",
               "enter_pin_error": "Unable to store PIN:",
               "not_configured_title": "Continue setting up Google Assistant",
-              "not_configured_text": "To start using Google Assistant, add the 'Home Assistant Cloud by Nabu Casa' service in the Google Home app on your smartphone.",
+              "not_configured_text": "To start using Google Assistant, add the 'Univois Smart OS Cloud by Nabu Casa' service in the Google Home app on your smartphone.",
               "link_learn_how_it_works": "[%key:ui::panel::config::cloud::account::remote::link_learn_how_it_works%]",
               "expose_new_entities": "Expose new entities",
               "expose_new_entities_info": "Should new entities be exposed to Google Assistant automatically? Exposes supported devices that are not classified as security devices."
             },
             "webhooks": {
               "title": "Webhooks",
-              "info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Home Assistant from anywhere, without exposing your instance to the internet.",
+              "info": "Anything that is configured to be triggered by a webhook can be given a publicly accessible URL to allow you to send data back to Univois Smart OS from anywhere, without exposing your instance to the internet.",
               "no_hooks_yet": "Looks like you have no webhooks yet. Get started by configuring a ",
               "no_hooks_yet_link_integration": "webhook-based integration",
               "no_hooks_yet2": " or by creating a ",
@@ -6287,9 +6287,9 @@
             "close": "Close"
           },
           "dialog_already_connected": {
-            "heading": "Account linked to other Home Assistant",
-            "description": "We noticed that another instance is currently connected to your Home Assistant Cloud account. Your Home Assistant Cloud account can only be signed in to one Home Assistant instance at a time. If you log in here, the other instance will be disconnected along with its Cloud services and you will need to be physically present to reconnect it.  Nabu Casa support is unable to remotely reconnect a disconnected Home Assistant instance.",
-            "other_home_assistant": "Other Home Assistant",
+            "heading": "Account linked to other Univois Smart OS",
+            "description": "We noticed that another instance is currently connected to your Univois Smart OS Cloud account. Your Univois Smart OS Cloud account can only be signed in to one Univois Smart OS instance at a time. If you log in here, the other instance will be disconnected along with its Cloud services and you will need to be physically present to reconnect it.  Nabu Casa support is unable to remotely reconnect a disconnected Univois Smart OS instance.",
+            "other_home_assistant": "Other Univois Smart OS",
             "instance_name": "Instance name",
             "instance_version": "Instance version",
             "ip_address": "IP address",
@@ -6299,7 +6299,7 @@
               "hide": "Hide IP address"
             },
             "info_backups": {
-              "title": "Home Assistant Cloud backups",
+              "title": "Univois Smart OS Cloud backups",
               "description": "Your Cloud backup may be overwritten if you proceed. We strongly recommend downloading your current backup from your Nabu Casa account page before continuing."
             },
             "close": "Close",
@@ -6467,7 +6467,7 @@
           "esphome": {
             "show_encryption_key": "Show encryption key",
             "encryption_key_title": "ESPHome Encryption Key",
-            "encryption_key_description": "This is the encryption key for your ESPHome device. Keep it in a safe place, as you may need it when transferring devices between Home Assistant instances."
+            "encryption_key_description": "This is the encryption key for your ESPHome device. Keep it in a safe place, as you may need it when transferring devices between Univois Smart OS instances."
           }
         },
         "entities": {
@@ -6475,8 +6475,8 @@
           "description": "Manage known entities",
           "picker": {
             "header": "Entities",
-            "introduction": "Home Assistant keeps a registry of every entity it has ever seen that can be uniquely identified. Each of these entities will have an entity ID assigned which will be reserved for just this entity.",
-            "introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from Home Assistant.",
+            "introduction": "Univois Smart OS keeps a registry of every entity it has ever seen that can be uniquely identified. Each of these entities will have an entity ID assigned which will be reserved for just this entity.",
+            "introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from Univois Smart OS.",
             "search": "Search {number} {number, plural,\n  one {entity}\n  other {entities}\n}",
             "unnamed_entity": "Unnamed entity",
             "filtering_by_config_entry": "Filtering by config entry",
@@ -6506,12 +6506,12 @@
             "enable_selected": {
               "button": "Enable selected",
               "confirm_title": "Do you want to enable {number} {number, plural,\n  one {entity}\n  other {entities}\n}?",
-              "confirm_text": "This will make them available in Home Assistant again if they are now disabled."
+              "confirm_text": "This will make them available in Univois Smart OS again if they are now disabled."
             },
             "disable_selected": {
               "button": "Disable selected",
               "confirm_title": "Do you want to disable {number} {number, plural,\n  one {entity}\n  other {entities}\n}?",
-              "confirm_text": "Disabled entities will not be added to Home Assistant."
+              "confirm_text": "Disabled entities will not be added to Univois Smart OS."
             },
             "restore_entity_id_selected": {
               "button": "Recreate entity IDs of selected",
@@ -6523,7 +6523,7 @@
               "button": "Delete selected",
               "confirm_title": "Delete selected entities?",
               "confirm_text": "Are you sure you want to delete the entities?\n\nRemove them from your dashboard and automations if they include these entities.",
-              "confirm_partly_text": "You can only delete {deletable} of the {selected} entities. The others require the integration to stop providing them, and sometimes a Home Assistant restart is needed. Are you sure you want to delete the deletable entities?\n\nRemove them from your dashboard and automations if they include these entities."
+              "confirm_partly_text": "You can only delete {deletable} of the {selected} entities. The others require the integration to stop providing them, and sometimes a Univois Smart OS restart is needed. Are you sure you want to delete the deletable entities?\n\nRemove them from your dashboard and automations if they include these entities."
             },
             "hide_selected": {
               "button": "Hide selected",
@@ -6540,7 +6540,7 @@
         },
         "person": {
           "caption": "People",
-          "introduction": "Manage the people Home Assistant recognizes and control their access.",
+          "introduction": "Manage the people Univois Smart OS recognizes and control their access.",
           "note_about_persons_configured_in_yaml": "People configured via configuration.yaml cannot be edited via the UI.",
           "learn_more": "Learn more about people",
           "no_persons_created_yet": "Looks like you have not added any people yet.",
@@ -6602,7 +6602,7 @@
             "create": "Create",
             "update": "Update"
           },
-          "core_location_dialog": "Home Assistant location"
+          "core_location_dialog": "Univois Smart OS location"
         },
         "integrations": {
           "caption": "Integrations",
@@ -6625,7 +6625,7 @@
           "no_ignored_integrations": "No ignored integrations",
           "note_about_integrations": "No integrations matched your search, the integration you want to set up might not be available to set up via the UI yet.",
           "note_about_website_reference": "More are available on the ",
-          "home_assistant_website": "Home Assistant website",
+          "home_assistant_website": "Univois Smart OS website",
           "configure": "Configure",
           "reconfigure": "Reconfigure",
           "none": "Nothing configured yet",
@@ -6718,11 +6718,11 @@
             "enable_debug_logging": "Enable debug logging",
             "reconfigure": "Reconfigure",
             "reload": "Reload",
-            "restart_confirm": "Restart Home Assistant to finish removing this integration",
+            "restart_confirm": "Restart Univois Smart OS to finish removing this integration",
             "reload_confirm": "The integration was reloaded",
-            "reload_restart_confirm": "Restart Home Assistant to finish reloading this integration",
-            "disable_restart_confirm": "Restart Home Assistant to finish disabling this integration",
-            "enable_restart_confirm": "Restart Home Assistant to finish enabling this integration",
+            "reload_restart_confirm": "Restart Univois Smart OS to finish reloading this integration",
+            "disable_restart_confirm": "Restart Univois Smart OS to finish disabling this integration",
+            "enable_restart_confirm": "Restart Univois Smart OS to finish enabling this integration",
             "disable_confirm_title": "Disable {title}?",
             "disable_confirm_text": "Its devices and entities will be disabled.",
             "disable_error": "Enabling or disabling of the integration failed",
@@ -6785,7 +6785,7 @@
             "yaml_only_title": "This integration cannot be added from the UI",
             "yaml_only": "You can add this integration by adding it to your ''configuration.yaml''. See the documentation for more information.",
             "open_documentation": "Open documentation",
-            "no_config_flow": "This integration does not support configuration via the UI. If you followed this link from the Home Assistant website, make sure you run the latest version of Home Assistant.",
+            "no_config_flow": "This integration does not support configuration via the UI. If you followed this link from the Univois Smart OS website, make sure you run the latest version of Univois Smart OS.",
             "not_all_required_fields": "Not all required fields are filled in.",
             "error_saving_device": "Error updating device: {error}",
             "error_saving_entity": "Error updating entity: {error}",
@@ -6801,7 +6801,7 @@
             },
             "error": "Error",
             "could_not_load": "Config flow could not be loaded",
-            "not_loaded": "The integration could not be loaded, try to restart Home Assistant.",
+            "not_loaded": "The integration could not be loaded, try to restart Univois Smart OS.",
             "supported_brand_flow": "Support for {supported_brand} devices is provided by {flow_domain_name}. Do you want to continue?",
             "missing_zwave_zigbee_title": "{integration} is not set up",
             "missing_zwave_zigbee": "To add a {brand} device, you first need {supported_hardware_link} and the {integration} integration set up. If you already have the hardware then you can proceed with the setup of {integration}.",
@@ -6814,7 +6814,7 @@
         },
         "users": {
           "caption": "Users",
-          "description": "Manage the Home Assistant user accounts",
+          "description": "Manage the Univois Smart OS user accounts",
           "users_privileges_note": "The user group feature is a work in progress. The user will be unable to administer the instance via the UI. We're still auditing all management API endpoints to ensure that they correctly limit access to administrators.",
           "is_not_active": "Disabled",
           "is_system": "System user",
@@ -6887,7 +6887,7 @@
           "description": "Manage the OAuth application credentials used by integrations",
           "editor": {
             "caption": "Add application credentials",
-            "description": "OAuth is used to grant Home Assistant secure delegated access to information on other websites without revealing your personal credentials.",
+            "description": "OAuth is used to grant Univois Smart OS secure delegated access to information on other websites without revealing your personal credentials.",
             "missing_credentials": "Setting up {integration} requires configuring application credentials.",
             "missing_credentials_domain_link": "View {integration} documentation",
             "view_documentation": "View application credentials documentation",
@@ -7020,16 +7020,16 @@
           "add_dataset_label": "Operational dataset TLV",
           "add_dataset_button": "Add dataset",
           "confirm_reset_border_router": "Reset border router?",
-          "confirm_reset_border_router_text": "Home Assistant will create a new Thread network. Any devices that are currently joined on this Home Assistant Thread network will need to be re-joined.",
+          "confirm_reset_border_router_text": "Univois Smart OS will create a new Thread network. Any devices that are currently joined on this Univois Smart OS Thread network will need to be re-joined.",
           "confirm_set_dataset_border_router": "Reconfigure border router?",
-          "confirm_set_dataset_border_router_text": "Home Assistant will join an existing Thread network. Any devices that are currently joined on this Home Assistant Thread network will need to be re-joined.",
+          "confirm_set_dataset_border_router_text": "Univois Smart OS will join an existing Thread network. Any devices that are currently joined on this Univois Smart OS Thread network will need to be re-joined.",
           "otbr_config_failed": "Failed to configure the border router",
           "confirm_delete_dataset": "Delete {name} dataset?",
-          "confirm_delete_dataset_text": "This network will be removed from Home Assistant.",
+          "confirm_delete_dataset_text": "This network will be removed from Univois Smart OS.",
           "no_border_routers": "No border routers found",
           "no_preferred_router": "No preferred border router defined",
           "border_routers": "{count} border {count, plural,\n  one {router}\n  other {routers}\n}",
-          "managed_by_home_assistant": "Managed by Home Assistant",
+          "managed_by_home_assistant": "Managed by Univois Smart OS",
           "operational_dataset": "Operational dataset",
           "change_channel": "Change channel",
           "change_channel_initiated_title": "Channel change in progress",
@@ -7039,11 +7039,11 @@
           "change_channel_multiprotocol_enabled_title": "The Thread adapter has multiprotocol enabled",
           "change_channel_multiprotocol_enabled_text": "To change channel when the Thread adapter has multiprotocol enabled, please use the hardware settings menu.",
           "change_channel_range": "Channel must be in the range 11 to 26",
-          "change_channel_text": "Initiating a channel change for your Home Assistant Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in Home Assistant again. This action cannot be reversed (without performing another channel change).",
+          "change_channel_text": "Initiating a channel change for your Univois Smart OS Thread network should be performed with caution. Some Thread devices may not migrate to the new channel automatically and, if the new channel is congested, your Thread devices may become intermittently unavailable. Some devices may need to be manually re-joined to your Thread network before they show in Univois Smart OS again. This action cannot be reversed (without performing another channel change).",
           "thread_network_info": "Thread network information",
           "thread_network_delete_credentials": "Delete Thread network credentials",
-          "thread_network_send_credentials_ha": "Send credentials to Home Assistant",
-          "thread_network_send_credentials_ha_description": "Import Thread network credentials from your phone to Home Assistant. Use this if you already have a Thread network set up through another platform, like Apple Home or Google Home.",
+          "thread_network_send_credentials_ha": "Send credentials to Univois Smart OS",
+          "thread_network_send_credentials_ha_description": "Import Thread network credentials from your phone to Univois Smart OS. Use this if you already have a Thread network set up through another platform, like Apple Home or Google Home.",
           "thread_network_send_credentials_phone": "Send credentials to phone",
           "thread_network_send_credentials_phone_description": "Share your Thread network credentials with your phone, allowing it to directly commission new Thread devices onto your network.",
           "thread_network_make_preferred": "Make preferred network"
@@ -7117,7 +7117,7 @@
             "light_transitioning_flag_description": "Keeps the brightness slider at the chosen level during light fades so it does not jump around",
             "consider_unavailable_mains_description": "How long to wait before showing a mains-powered device as unavailable when it stops responding",
             "consider_unavailable_battery_description": "How long to wait before showing a battery-powered device as unavailable when it stops responding",
-            "enable_mains_startup_polling_description": "Get the current state of mains-powered devices when Home Assistant starts",
+            "enable_mains_startup_polling_description": "Get the current state of mains-powered devices when Univois Smart OS starts",
             "channel_label": "Channel",
             "radio_type": "Radio type",
             "serial_port": "Serial port",
@@ -7142,7 +7142,7 @@
             "pairing_mode": "Make sure your devices are in pairing mode. Check the instructions of your device or {documentation_link} on how to do this.",
             "pairing_mode_link": "the documentation",
             "discovered_text": "Devices will show up here once discovered.",
-            "no_devices_found": "No devices were found, make sure they are in pairing mode and keep them awake while Home Assistant is searching.",
+            "no_devices_found": "No devices were found, make sure they are in pairing mode and keep them awake while Univois Smart OS is searching.",
             "search_again": "Search again"
           },
           "add_device": "Add device",
@@ -7384,7 +7384,7 @@
           "hard_reset_controller": {
             "NotStarted": {
               "title": "Reset adapter to factory settings",
-              "body": "If you decide to move forward, you will reset your adapter to factory settings. As a result, the adapter will forget all devices it is paired with and all Z-Wave devices for this network will be removed from Home Assistant. If there are any devices still paired with the adapter when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
+              "body": "If you decide to move forward, you will reset your adapter to factory settings. As a result, the adapter will forget all devices it is paired with and all Z-Wave devices for this network will be removed from Univois Smart OS. If there are any devices still paired with the adapter when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
             },
             "InProgress": {
               "title": "Resetting adapter",
@@ -7578,7 +7578,7 @@
               "device_name": "Name",
               "device_area": "Area",
               "choose_network_type": "Choose network type",
-              "long_range_description": "Direct connection to Home Assistant for extended coverage, without a mesh network.",
+              "long_range_description": "Direct connection to Univois Smart OS for extended coverage, without a mesh network.",
               "mesh_label": "Mesh network",
               "mesh_description": "Devices relay signals to each other, enhancing coverage and reliability.",
               "add_device": "Add device",
@@ -7622,7 +7622,7 @@
             "not_included": "Not included",
             "confirm_unprovision_title": "Remove device?",
             "confirm_unprovision_text": "This device will be permanently removed from your Z-Wave network.",
-            "confirm_unprovision_text_included": "This device will be permanently removed from Home Assistant and your Z-Wave network.",
+            "confirm_unprovision_text_included": "This device will be permanently removed from Univois Smart OS and your Z-Wave network.",
             "active": "Active"
           },
           "security_classes": {
@@ -7650,7 +7650,7 @@
             "title": "Remove device",
             "introduction": "There are two ways to remove a device from your Z-Wave network depending on the state of the device. If the device is working, you can remove it by following the instructions that came with your device to put it into exclusion mode. If the device is unavailable, you can force-remove it from the network.",
             "exclusion_intro": "Useful when a device is stuck in another network and must be excluded before it can be included again.",
-            "failed_node_intro": "{name} is unable to connect to your Z-Wave network. Home Assistant can force-remove a device for you. After removing it you might need to factory reset your device.",
+            "failed_node_intro": "{name} is unable to connect to your Z-Wave network. Univois Smart OS can force-remove a device for you. After removing it you might need to factory reset your device.",
             "menu_exclude_device": "Remove a working device",
             "menu_remove_device": "Force-remove an unavailable device",
             "start_exclusion": "Start exclusion",
@@ -7708,8 +7708,8 @@
           },
           "update_firmware": {
             "title": "Update device firmware",
-            "warning": "WARNING: Firmware updates can brick your device if you do not correctly follow the manufacturer's guidance. The Home Assistant and Z-Wave JS teams do not take any responsibility for any damages to your device as a result of the firmware update and will not be able to help you if you brick your device. Would you still like to continue?",
-            "warning_controller": "WARNING: Firmware updates can brick your adapter if you do not use the right firmware files, or if you attempt to stop the firmware update before it completes. The Home Assistant and Z-Wave JS teams do not take any responsibility for any damages to your adapter as a result of the firmware update and will not be able to help you if you brick your adapter. Would you still like to continue?",
+            "warning": "WARNING: Firmware updates can brick your device if you do not correctly follow the manufacturer's guidance. The Univois Smart OS and Z-Wave JS teams do not take any responsibility for any damages to your device as a result of the firmware update and will not be able to help you if you brick your device. Would you still like to continue?",
+            "warning_controller": "WARNING: Firmware updates can brick your adapter if you do not use the right firmware files, or if you attempt to stop the firmware update before it completes. The Univois Smart OS and Z-Wave JS teams do not take any responsibility for any damages to your adapter as a result of the firmware update and will not be able to help you if you brick your adapter. Would you still like to continue?",
             "introduction": "Select the firmware file you would like to use to update {device}.",
             "introduction_controller": "Select the firmware file you would like to use to update {device}. Note that once you start a firmware update, you MUST wait for the update to complete.",
             "firmware_target_intro": "Select the firmware target (0 for the Z-Wave chip, ≥1 for other chips if they exist) for this update.",
@@ -7910,7 +7910,7 @@
           },
           "open_commissioning_window": {
             "title": "Share device",
-            "description": "To continue, select {startCommissioning}. Home Assistant will then put your device in commissioning mode, allowing it to pair with another Matter controller.",
+            "description": "To continue, select {startCommissioning}. Univois Smart OS will then put your device in commissioning mode, allowing it to pair with another Matter controller.",
             "prevent_misuse_description": "Note: Do not press the physical setup button on the device as this will reset it.",
             "start_commissioning": "Share device",
             "in_progress": "We're communicating with the device. This may take some time.",
@@ -8028,12 +8028,12 @@
           "join_chat": "Chat",
           "join_blog": "Blog",
           "join_newsletter": "Newsletter",
-          "media_storage": "You can add network storage to your Home Assistant instance in the {storage} panel."
+          "media_storage": "You can add network storage to your Univois Smart OS instance in the {storage} panel."
         },
         "analytics": {
           "caption": "Analytics",
-          "header": "Home Assistant",
-          "description": "Learn how to share data to improve Home Assistant",
+          "header": "Univois Smart OS",
+          "description": "Learn how to share data to improve Univois Smart OS",
           "preferences": {
             "base": {
               "title": "Basic analytics",
@@ -8041,7 +8041,7 @@
             },
             "usage": {
               "title": "Usage",
-              "description": "Details of what you use with Home Assistant"
+              "description": "Details of what you use with Univois Smart OS"
             },
             "statistics": {
               "title": "Statistical data",
@@ -8065,7 +8065,7 @@
           },
           "need_base_enabled": "You need to enable basic analytics for this option to be available",
           "learn_more": "Learn how we process your data",
-          "intro": "Share anonymized information from your installation to help make Home Assistant better and help us convince manufacturers to add local control and privacy-focused features.",
+          "intro": "Share anonymized information from your installation to help make Univois Smart OS better and help us convince manufacturers to add local control and privacy-focused features.",
           "download_device_info": "Preview device analytics"
         },
         "ai_tasks": {
@@ -8077,9 +8077,9 @@
           "custom_integration": "Custom integration",
           "description": "Preview new features",
           "description_enabled": "Preview features are enabled",
-          "intro_title": "Home Assistant Labs",
+          "intro_title": "Univois Smart OS Labs",
           "intro_subtitle": "Preview upcoming features",
-          "intro_description": "Home Assistant Labs lets you preview new features we're actively working on. These features are stable and fully functional, but may not yet include the complete feature set we envision. We're still refining the design and approach based on your feedback.",
+          "intro_description": "Univois Smart OS Labs lets you preview new features we're actively working on. These features are stable and fully functional, but may not yet include the complete feature set we envision. We're still refining the design and approach based on your feedback.",
           "intro_warning": "Preview features may change or be replaced with different solutions in future releases.",
           "empty": {
             "title": "No preview features available",
@@ -8100,15 +8100,15 @@
           "disable_failed": "Disabling preview feature failed: {error}",
           "progress": {
             "creating_backup": "Creating backup",
-            "backing_up_before_enabling": "Home Assistant is being backed up before enabling the Home Assistant Labs preview feature",
-            "backing_up_before_disabling": "Home Assistant is being backed up before disabling the Home Assistant Labs preview feature"
+            "backing_up_before_enabling": "Univois Smart OS is being backed up before enabling the Univois Smart OS Labs preview feature",
+            "backing_up_before_disabling": "Univois Smart OS is being backed up before disabling the Univois Smart OS Labs preview feature"
           },
           "create_backup": {
             "automatic": "Automatic backup before enabling",
             "automatic_description_last": "Last automatic backup {relative_time}.",
             "automatic_description_none": "No automatic backup yet.",
             "manual": "Create manual backup before enabling",
-            "manual_description": "Includes Home Assistant settings and history."
+            "manual_description": "Includes Univois Smart OS settings and history."
           }
         },
         "network": {
@@ -8149,13 +8149,13 @@
           },
           "discovery": {
             "title": "Network discovery",
-            "description": "Explore what data Home Assistant can see on the network.",
+            "description": "Explore what data Univois Smart OS can see on the network.",
             "dhcp": "DHCP browser",
             "dhcp_info": "Show devices detected using methods like DHCP, ARP+PTR lookups, and router-based device trackers.",
             "ssdp": "SSDP browser",
             "ssdp_info": "Show devices discovered using SSDP/UPnP.",
             "zeroconf": "Zeroconf browser",
-            "zeroconf_info": "Show services discovered using mDNS. Does not include services unknown to Home Assistant."
+            "zeroconf_info": "Show services discovered using mDNS. Does not include services unknown to Univois Smart OS."
           },
           "network_adapter": "Network adapter",
           "network_adapter_info": "Configure which network adapters integrations will use. A restart is required for these settings to apply.",
@@ -8182,7 +8182,7 @@
             "media": "Media",
             "share": "Share",
             "backup": "Backups",
-            "homeassistant": "Home Assistant",
+            "homeassistant": "Univois Smart OS",
             "ssl": "SSL"
           },
           "lifetime": "Lifetime",
@@ -8192,7 +8192,7 @@
           "change_chart_type": "Change chart type",
           "datadisk": {
             "title": "Move data disk",
-            "description": "You are currently using ''{current_path}'' as data disk. Moving the data disk will reboot your device and it's estimated to take {time} minutes. Your Home Assistant installation will not be accessible during this period. Do not disconnect the power during the move!",
+            "description": "You are currently using ''{current_path}'' as data disk. Moving the data disk will reboot your device and it's estimated to take {time} minutes. Your Univois Smart OS installation will not be accessible during this period. Do not disconnect the power during the move!",
             "extra_information": "Size: {size}, S/N: {serial}",
             "select_device": "Select new data disk",
             "no_devices_title": "No suitable storage found",
@@ -8213,7 +8213,7 @@
             "not_supported": {
               "title": "The operating system does not support network storage",
               "supervised": "Network storage is not supported on this host",
-              "os": "To use network storage you need to run at least Home Assistant OS {version}",
+              "os": "To use network storage you need to run at least Univois Smart OS OS {version}",
               "navigate_to_updates": "Go to updates"
             },
             "mount_usage": {
@@ -8292,7 +8292,7 @@
           "integration_start_time": "Integration startup time"
         },
         "system_dashboard": {
-          "restart_homeassistant": "Restart Home Assistant"
+          "restart_homeassistant": "Restart Univois Smart OS"
         }
       },
       "lovelace": {
@@ -8425,14 +8425,14 @@
             "more_info": "Show more info: {name}"
           },
           "iframe": {
-            "error_secure_context": "Unable to load iframes pointing at websites using {target_protocol} if Home Assistant is served over {context_protocol}."
+            "error_secure_context": "Unable to load iframes pointing at websites using {target_protocol} if Univois Smart OS is served over {context_protocol}."
           },
           "recovery-mode": {
             "header": "Recovery mode activated",
-            "description": "Home Assistant ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
+            "description": "Univois Smart OS ran into trouble while loading your configuration and is now running in recovery mode. Take a look at the error log to see what went wrong."
           },
           "starting": {
-            "description": "Home Assistant is starting, please wait…"
+            "description": "Univois Smart OS is starting, please wait…"
           },
           "map": {
             "reset_focus": "Reset focus",
@@ -8588,11 +8588,11 @@
           "search_entities": "Search entities",
           "assist": "Assist",
           "assist_tooltip": "Assist",
-          "search_home_assistant": "Search Home Assistant",
+          "search_home_assistant": "Search Univois Smart OS",
           "reload_resources": "Reload resources",
           "exit_edit_mode": "Done",
           "close": "Close",
-          "add": "Add to Home Assistant",
+          "add": "Add to Univois Smart OS",
           "add_device": "Add device",
           "create_automation": "Create automation",
           "create_area": "Create area",
@@ -8928,7 +8928,7 @@
           },
           "save_config": {
             "header": "Take control of your dashboard",
-            "para": "This dashboard is currently being maintained by Home Assistant. It is automatically updated when new entities or dashboard components become available. If you take control, this dashboard will no longer be automatically updated. You can always create a new dashboard in settings to play around with.",
+            "para": "This dashboard is currently being maintained by Univois Smart OS. It is automatically updated when new entities or dashboard components become available. If you take control, this dashboard will no longer be automatically updated. You can always create a new dashboard in settings to play around with.",
             "para_sure": "Are you sure you want to take control of your user interface?",
             "yaml_mode": "You are using YAML mode for this dashboard, which means you cannot change your dashboard config from the UI. If you want to manage this dashboard from the UI, remove 'mode: yaml' from your dashboard configuration in 'configuration.yaml.'.",
             "yaml_control": "To take control in YAML mode, create a YAML file with the name you specified in your config for this dashboard, or the default 'ui-lovelace.yaml'.",
@@ -8940,7 +8940,7 @@
           "migrate": {
             "header": "Configuration incompatible",
             "para_no_id": "This element doesn't have an ID. Please add an ID to this element in 'ui-lovelace.yaml'.",
-            "para_migrate": "Home Assistant can add IDs to all your cards and views automatically for you by pressing the 'Migrate configuration' button.",
+            "para_migrate": "Univois Smart OS can add IDs to all your cards and views automatically for you by pressing the 'Migrate configuration' button.",
             "migrate": "Migrate configuration"
           },
           "action-editor": {
@@ -9372,7 +9372,7 @@
             },
             "iframe": {
               "name": "Webpage",
-              "description": "This card allows you to embed your favorite webpage right into Home Assistant.",
+              "description": "This card allows you to embed your favorite webpage right into Univois Smart OS.",
               "hide_background": "Hide background",
               "hide_background_helper": "Useful for pages which allow a transparent background."
             },
@@ -10165,7 +10165,7 @@
           "entity_not_found": "Entity not available: {entity}",
           "entity_non_numeric": "Entity is non-numeric: {entity}",
           "entity_unavailable": "Entity is currently unavailable: {entity}",
-          "starting": "Home Assistant is starting. Not everything may be available yet."
+          "starting": "Univois Smart OS is starting. Not everything may be available yet."
         },
         "externally_updated_toast": {
           "message": "Dashboard updated in another session. Refreshing will discard your unsaved changes."
@@ -10320,7 +10320,7 @@
           "link_promo": "Learn about themes",
           "dropdown_label": "Theme",
           "migrate_header": "Migrate theme settings",
-          "migrate_description": "Save your theme selection to your Home Assistant user profile.",
+          "migrate_description": "Save your theme selection to your Univois Smart OS user profile.",
           "migrate_button": "Migrate",
           "migrate_success": "Theme settings migrated.",
           "migrate_failed": "Failed to migrate theme settings.",
@@ -10405,7 +10405,7 @@
         },
         "long_lived_access_tokens": {
           "header": "Long-lived access tokens",
-          "description": "Create long-lived access tokens to allow your scripts to interact with your Home Assistant instance. Each token will be valid for 10 years from creation. The following long-lived access tokens are currently active.",
+          "description": "Create long-lived access tokens to allow your scripts to interact with your Univois Smart OS instance. Each token will be valid for 10 years from creation. The following long-lived access tokens are currently active.",
           "learn_auth_requests": "Learn how to make authenticated requests.",
           "created": "Created {date}",
           "confirm_delete_title": "Delete long-lived access token?",
@@ -10431,13 +10431,13 @@
         "information": "More info",
         "delete_confirm_title": "Remove {name}?",
         "delete_confirm_text": "Are you sure you want to remove this list and all of its items?",
-        "restart_confirm": "Restart Home Assistant to finish removing this to-do list"
+        "restart_confirm": "Restart Univois Smart OS to finish removing this to-do list"
       },
       "page-authorize": {
         "initializing": "Initializing",
-        "authorizing": "Log in to your Home Assistant instance",
-        "authorizing_app": "You're about to give the Home Assistant Companion app for {app} access to your Home Assistant instance.",
-        "authorizing_client": "You're about to give {clientId} access to your Home Assistant instance.",
+        "authorizing": "Log in to your Univois Smart OS instance",
+        "authorizing_app": "You're about to give the Univois Smart OS Companion app for {app} access to your Univois Smart OS instance.",
+        "authorizing_client": "You're about to give {clientId} access to your Univois Smart OS instance.",
         "pick_auth_provider": "Or log in with",
         "abort_intro": "Login aborted",
         "store_token": "Keep me logged in",
@@ -10549,8 +10549,8 @@
           "demo": {
             "demo_by": "by {name}",
             "next_demo": "Next demo",
-            "introduction": "Welcome home! You've reached the Home Assistant demo where we showcase the best UIs created by our community.",
-            "learn_more": "Learn more about Home Assistant"
+            "introduction": "Welcome home! You've reached the Univois Smart OS demo where we showcase the best UIs created by our community.",
+            "learn_more": "Learn more about Univois Smart OS"
           }
         },
         "config": {
@@ -10620,7 +10620,7 @@
           "vision": "Read our vision",
           "community": "Join our community",
           "download_app": "Download our app",
-          "forums": "Home Assistant forums",
+          "forums": "Univois Smart OS forums",
           "open_home_newsletter": "Building the Open Home newsletter",
           "discord": "Discord chat",
           "social_media": "Social Media",
@@ -10648,13 +10648,13 @@
         },
         "core-config": {
           "location_header": "Home location",
-          "intro_location": "This data is stored on your Home Assistant system, though some cloud-based integrations may use this data to function.",
+          "intro_location": "This data is stored on your Univois Smart OS system, though some cloud-based integrations may use this data to function.",
           "location_address": "Powered by {openstreetmap} ({osm_privacy_policy}).",
           "osm_privacy_policy": "Privacy policy",
           "title_location_detect": "Do you want us to detect your location?",
           "intro_location_detect": "We can detect your location by making a one-time request to an external service.",
           "country_intro": "We would like to know the country your home is in, so we can use the correct units.",
-          "location_name": "Name of your Home Assistant installation",
+          "location_name": "Name of your Univois Smart OS installation",
           "location_name_default": "Home",
           "address_label": "Search address",
           "button_detect": "Detect",
@@ -10708,8 +10708,8 @@
           "delete": "[%key:ui::common::delete%]",
           "uploading": "[%key:ui::components::file-upload::uploading%]",
           "details": {
-            "home_assistant_missing": "This backup does not include your Home Assistant configuration, you cannot use it to restore your instance.",
-            "apps_unsupported": "Your installation method doesn’t support apps. If you want to restore these, you have to install Home Assistant OS",
+            "home_assistant_missing": "This backup does not include your Univois Smart OS configuration, you cannot use it to restore your instance.",
+            "apps_unsupported": "Your installation method doesn’t support apps. If you want to restore these, you have to install Univois Smart OS OS",
             "summary": {
               "created": "[%key:ui::panel::config::backup::details::summary::created%]",
               "content": "Content"
@@ -10720,7 +10720,7 @@
               "encryption": {
                 "label": "Encryption",
                 "description": "[%key:ui::panel::config::backup::dialogs::restore::encryption::different_key%]",
-                "description_cloud": "Home Assistant Cloud is the privacy-focused cloud. We don’t store your encryption key. Enter the encryption key you saved or use the emergency kit you have downloaded.",
+                "description_cloud": "Univois Smart OS Cloud is the privacy-focused cloud. We don’t store your encryption key. Enter the encryption key you saved or use the emergency kit you have downloaded.",
                 "incorrect_key": "[%key:ui::panel::config::backup::dialogs::restore::encryption::incorrect_key%]",
                 "input_label": "[%key:ui::panel::config::backup::dialogs::restore::encryption::input_label%]"
               }
@@ -10735,9 +10735,9 @@
             "apps": "[%key:ui::panel::config::backup::data_picker::apps%]",
             "ssl": "[%key:ui::panel::config::backup::data_picker::ssl%]"
           },
-          "restore_no_home_assistant": "Backup does not contain Home Assistant data. To restore Home Assistant you need a backup of Home Assistant Core.",
+          "restore_no_home_assistant": "Backup does not contain Univois Smart OS data. To restore Univois Smart OS you need a backup of Univois Smart OS Core.",
           "in_progress": "Restore in progress",
-          "in_progress_description": "The restore process is running in the background. Home Assistant will automatically start again once the restore is complete. Please be patient, this can take a while. Do not close or refresh this page.",
+          "in_progress_description": "The restore process is running in the background. Univois Smart OS will automatically start again once the restore is complete. Please be patient, this can take a while. Do not close or refresh this page.",
           "failed": "Restore failed",
           "failed_status_description": "The backup could not be restored. Please try again.",
           "failed_description": "The last restore attempt failed. Please try it again.",
@@ -10756,9 +10756,9 @@
           "password": "Backup encryption key",
           "confirm_password": "Confirm encryption key",
           "confirm_restore_partial_backup_title": "Restore partial backup",
-          "confirm_restore_partial_backup_text": "The backup will be restored. Depending on the size of the backup, this can take up to 45 min. Home Assistant needs to shut down and the restore progress is running in the background. If it succeeds, Home Assistant will automatically start again and you see the login screen. If it fails it will bring you back to the onboarding.",
+          "confirm_restore_partial_backup_text": "The backup will be restored. Depending on the size of the backup, this can take up to 45 min. Univois Smart OS needs to shut down and the restore progress is running in the background. If it succeeds, Univois Smart OS will automatically start again and you see the login screen. If it fails it will bring you back to the onboarding.",
           "confirm_restore_full_backup_title": "Restore full backup",
-          "confirm_restore_full_backup_text": "Depending on the size of the backup, this can take up to 45 minutes. Home Assistant will restart and you will see the login screen when it’s restored.",
+          "confirm_restore_full_backup_text": "Depending on the size of the backup, this can take up to 45 minutes. Univois Smart OS will restart and you will see the login screen when it’s restored.",
           "restore": "Restore",
           "close": "[%key:ui::common::close%]",
           "cancel": "[%key:ui::common::cancel%]",
@@ -10774,15 +10774,15 @@
             "no": "[%key:ui::common::no%]"
           },
           "ha-cloud": {
-            "description": "Restore from your Home Assistant Cloud backup.",
+            "description": "Restore from your Univois Smart OS Cloud backup.",
             "no_cloud_backup": "No backup available",
-            "no_cloud_backup_description": "This Home Assistant Cloud account doesn’t have a backup stored. You can learn more how Cloud backups work at the Nabu Casa website.",
+            "no_cloud_backup_description": "This Univois Smart OS Cloud account doesn’t have a backup stored. You can learn more how Cloud backups work at the Nabu Casa website.",
             "sign_out": "[%key:ui::panel::config::cloud::account::sign_out%]",
-            "sign_out_progress": "Home Assistant cloud signing out...",
-            "sign_out_success": "Home Assistant cloud signed out",
-            "sign_out_error": "Failed to sign out from Home Assistant cloud",
+            "sign_out_progress": "Univois Smart OS cloud signing out...",
+            "sign_out_success": "Univois Smart OS cloud signed out",
+            "sign_out_error": "Failed to sign out from Univois Smart OS cloud",
             "learn_more": "Learn more",
-            "sign_in_description": "Sign in to your Nabu Casa account and restore your Home Assistant Cloud backup.",
+            "sign_in_description": "Sign in to your Nabu Casa account and restore your Univois Smart OS Cloud backup.",
             "login": {
               "title": "[%key:ui::panel::config::cloud::login::title%]",
               "sign_in": "[%key:ui::panel::config::cloud::login::sign_in%]",
@@ -10815,14 +10815,14 @@
           },
           "options": {
             "title": "How to restore?",
-            "upload_description": "Upload and restore a Home Assistant backup to this system"
+            "upload_description": "Upload and restore a Univois Smart OS backup to this system"
           }
         }
       },
       "custom": {
         "external_panel": {
           "question_trust": "Do you trust the external panel {name} at {link}?",
-          "complete_access": "It will have access to all data in Home Assistant.",
+          "complete_access": "It will have access to all data in Univois Smart OS.",
           "hide_message": "Check docs for the 'Custom panel' integration to hide this message"
         }
       },
@@ -10881,24 +10881,24 @@
       "keyboard_shortcut": "keyboard shortcut",
       "key_c_tip": "Press {keyboard_shortcut} 'c' on any page to open the command dialog",
       "key_e_tip": "Press {keyboard_shortcut} 'e' on any page to open the entity search dialog",
-      "key_m_tip": "Press {keyboard_shortcut} 'm' on any page to get the My Home Assistant link",
+      "key_m_tip": "Press {keyboard_shortcut} 'm' on any page to get the My Univois Smart OS link",
       "key_a_tip": "Press {keyboard_shortcut} 'a' on any page to open the Assist dialog",
       "key_shortcut_quick_search": "Press {keyboard_shortcut} ''{modifier}+k'' on any page to open quick search"
     }
   },
   "landing-page": {
-    "header": "Preparing Home Assistant",
+    "header": "Preparing Univois Smart OS",
     "subheader": "This may take 20 minutes or more",
     "show_details": "Show details",
     "hide_details": "Hide details",
     "network_issue": {
       "title": "Networking issue detected",
       "error_get_network_info": "Cannot get network information",
-      "description": "Home Assistant OS detected a networking issue in your setup. As part of the initial setup, Home Assistant OS downloads the latest version of Home Assistant Core. This networking issue prevents this download. The network issue might be DNS related. The currently used DNS service is: {dns}.",
+      "description": "Univois Smart OS OS detected a networking issue in your setup. As part of the initial setup, Univois Smart OS OS downloads the latest version of Univois Smart OS Core. This networking issue prevents this download. The network issue might be DNS related. The currently used DNS service is: {dns}.",
       "resolve_different": "To resolve this, you can try a different DNS server. Select one of the options below. Alternatively, change your router configuration to use your own custom DNS server.",
       "use_cloudflare": "Use Cloudflare DNS",
       "use_google": "Use Google DNS",
-      "no_primary_interface": "Home Assistant OS wasn't able to detect a primary network interface, so you cannot define a DNS server!",
+      "no_primary_interface": "Univois Smart OS OS wasn't able to detect a primary network interface, so you cannot define a DNS server!",
       "failed": "Failed",
       "set_dns_failed": "An error occurred while setting the DNS server. Please check the logs for more information and try again.",
       "error": "Error",
@@ -10910,8 +10910,8 @@
       "retry": "Retry",
       "download_logs": "[%key:ui::panel::config::logs::download_logs%]"
     },
-    "error_title": "Error installing Home Assistant",
-    "error_description": "An error occurred while installing Home Assistant. Please check the logs for more information.",
+    "error_title": "Error installing Univois Smart OS",
+    "error_description": "An error occurred while installing Univois Smart OS. Please check the logs for more information.",
     "ui": {
       "panel": {
         "page-onboarding": {

@@ -262,7 +262,7 @@ class HaConfigBackupSettings extends LitElement {
                       >${this.hass.localize(
                         "ui.panel.config.backup.settings.locations.ha_cloud_backup",
                         {
-                          home_assistant_cloud: "Home Assistant Cloud",
+                          home_assistant_cloud: "Univois Smart OS Cloud",
                         }
                       )}</span
                     >

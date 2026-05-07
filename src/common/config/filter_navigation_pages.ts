@@ -24,6 +24,15 @@ export const filterNavigationPages = (
     if (page.adminOnly && !hass.user?.is_admin) {
       return false;
     }
+
+    if (page.translationKey === "voice_assistants") {
+      return false;
+    }
+
+    if (page.component === "cloud") {
+      return false;
+    }
+
     // Only show Bluetooth page if there are Bluetooth config entries
     if (page.component === "bluetooth") {
       return options.hasBluetoothConfigEntries ?? false;

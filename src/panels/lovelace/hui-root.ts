@@ -301,17 +301,6 @@ class HUIRoot extends LitElement {
         overflow: this.narrow,
       },
       {
-        icon: mdiCommentProcessingOutline,
-        key: "ui.panel.lovelace.menu.assist_tooltip",
-        buttonAction: this._showVoiceCommandDialog,
-        overflowAction: this._showVoiceCommandDialog,
-        suffix:
-          this.hass.enableShortcuts && !isMobileClient ? "(A)" : undefined,
-        visible:
-          !this._editMode && this._conversation(this.hass.config.components),
-        overflow: this.narrow,
-      },
-      {
         icon: mdiRefresh,
         key: "ui.common.refresh",
         overflowAction: this._handleRefresh,

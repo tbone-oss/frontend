@@ -39,15 +39,15 @@
       }
 
       .header img {
-        height: 56px;
-        width: 56px;
+        height: 45px;
+        width: 240px;
       }
     </style>
   </head>
   <body>
     <div class="content">
       <div class="header">
-        <img src="/static/icons/favicon-192x192.png" alt="Univois Smart OS" />
+        <img src="/static/icons/favicon-1-240x45.png" alt="Univois Smart OS"/>
       </div>
       <ha-authorize></ha-authorize>
     </div>

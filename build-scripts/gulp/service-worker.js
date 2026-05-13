@@ -60,8 +60,8 @@ gulp.task("gen-service-worker-app-prod", () =>
           // 'v' added as valid hash letter because in dev we hash with 'dev'
           "static/translations/**/en-+([a-fv0-9]).json",
           // Icon shown on splash screen
-          "static/icons/favicon-192x192.png",
-          "static/icons/favicon.ico",
+          "static/icons/favicon-1-192x192.png",
+          "static/icons/favicon-1.ico",
           // Common fonts
           "static/fonts/roboto/Roboto-Light.woff2",
           "static/fonts/roboto/Roboto-Medium.woff2",

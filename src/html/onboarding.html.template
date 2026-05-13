@@ -45,7 +45,7 @@
   <body id="particles">
     <div class="content">
       <div class="header">
-        <img src="/static/icons/favicon-192x192.png" alt="Univois Smart OS" />
+        <img src="/static/icons/favicon-1-192x192.png" alt="Univois Smart OS" />
       </div>
       <ha-onboarding></ha-onboarding>
     </div>

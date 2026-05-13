@@ -46,7 +46,7 @@ class DialogCommunity extends LitElement {
         >
           <ha-list-item hasMeta graphic="icon">
             <img
-              src="/static/icons/favicon-192x192.png"
+              src="/static/icons/favicon-1-192x192.png"
               slot="graphic"
               alt="Home Assistant Logo"
             />

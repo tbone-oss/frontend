@@ -131,7 +131,7 @@ class DialogTagDetail
                     ? html`
                         <ha-qr-code
                           .data=${`${documentationUrl(this.hass, "/tag/")}${this._params!.entry!.id}`}
-                          center-image="/static/icons/favicon-192x192.png"
+                          center-image="/static/icons/favicon-1-192x192.png"
                           error-correction-level="quartile"
                           scale="5"
                         >

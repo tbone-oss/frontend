@@ -20,11 +20,13 @@ import paths from "../paths.cjs";
 // version. Note this assumes the user has kept Safari updated.
 const HA_MACOS_REGEX =
   /Home Assistant\/[\d.]+ \(.+; macOS (\d+)\.(\d+)(?:\.(\d+))?\)/;
+//26: [26, 0, 0] was ommited, then Error produced.
 const SAFARI_TO_MACOS = {
   15: [10, 15, 0],
   16: [11, 0, 0],
   17: [12, 0, 0],
   18: [13, 0, 0],
+  26: [26, 0, 0],
 };
 
 const getCommonTemplateVars = () => {

@@ -117,6 +117,7 @@ class HaConfigInfo extends LitElement {
         .header=${this.hass.localize("ui.panel.config.info.caption")}
       >
         <div class="content">
+          <!--
           <ha-card outlined class="header">
             <a
               href=${documentationUrl(this.hass, "")}
@@ -125,8 +126,8 @@ class HaConfigInfo extends LitElement {
             >
               <ha-logo-svg
                 title=${this.hass.localize(
-                  "ui.panel.config.info.home_assistant_logo"
-                )}
+            "ui.panel.config.info.home_assistant_logo"
+          )}
               >
               </ha-logo-svg>
             </a>
@@ -135,8 +136,8 @@ class HaConfigInfo extends LitElement {
               <li>
                 <span class="version-label"
                   >${this.hass.localize(
-                    "ui.panel.config.info.installation_method"
-                  )}</span
+            "ui.panel.config.info.installation_method"
+          )}</span
                 >
                 <span class="version">${this._installationMethod || "…"}</span>
               </li>
@@ -145,47 +146,45 @@ class HaConfigInfo extends LitElement {
                 <span class="version">${hass.connection.haVersion}</span>
               </li>
               ${this._hassioInfo
-                ? html`
-                    <li>
-                      <span class="version-label">Supervisor</span>
-                      <span class="version"
-                        >${this._hassioInfo.supervisor}</span
-                      >
-                    </li>
-                  `
-                : nothing}
+            ? html`
+                <li>
+                  <span class="version-label">Supervisor</span>
+                  <span class="version">${this._hassioInfo.supervisor}</span>
+                </li>
+              `
+            : nothing}
               ${this._osInfo
-                ? html`
-                    <li>
-                      <span class="version-label">Operating System</span>
-                      <span class="version">${this._osInfo.version}</span>
-                    </li>
-                  `
-                : nothing}
+            ? html`
+                <li>
+                  <span class="version-label">Operating System</span>
+                  <span class="version">${this._osInfo.version}</span>
+                </li>
+              `
+            : nothing}
               <li>
                 <span class="version-label">
                   ${this.hass.localize(
-                    "ui.panel.config.info.frontend_version_label"
-                  )}
+            "ui.panel.config.info.frontend_version_label"
+          )}
                 </span>
                 <span class="version">
                   ${JS_VERSION}${JS_TYPE !== "modern" ? ` · ${JS_TYPE}` : ""}
                 </span>
               </li>
               ${this.hass.auth.external?.config.appVersion
-                ? html`
-                    <li>
-                      <span class="version-label"
-                        >${this.hass.localize(
-                          "ui.panel.config.info.external_app_version"
-                        )}</span
-                      >
-                      <span class="version"
-                        >${this.hass.auth.external?.config.appVersion}</span
-                      >
-                    </li>
-                  `
-                : nothing}
+            ? html`
+                <li>
+                  <span class="version-label"
+                    >${this.hass.localize(
+                      "ui.panel.config.info.external_app_version"
+                    )}</span
+                  >
+                  <span class="version"
+                    >${this.hass.auth.external?.config.appVersion}</span
+                  >
+                </li>
+              `
+            : nothing}
             </ul>
           </ha-card>
           <ha-card outlined class="ohf ${isDark ? "dark" : ""}">
@@ -200,6 +199,7 @@ class HaConfigInfo extends LitElement {
               <img src="/static/icons/ohf.svg" alt="Open Home Foundation" />
             </a>
           </ha-card>
+                      -->
 
           <ha-card outlined class="pages">
             <ha-md-list>

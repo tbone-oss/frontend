@@ -33,6 +33,10 @@ export const filterNavigationPages = (
       return false;
     }
 
+    if (page.translationKey === "tags") {
+      return false;
+    }
+
     // Only show Bluetooth page if there are Bluetooth config entries
     if (page.component === "bluetooth") {
       return options.hasBluetoothConfigEntries ?? false;

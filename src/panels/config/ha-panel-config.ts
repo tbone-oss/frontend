@@ -462,13 +462,16 @@ export const configSections: Record<string, PageNavigation[]> = {
       iconColor: "#3B808E",
       adminOnly: true,
     },
+    /*
     {
       path: "/config/repairs",
       translationKey: "repairs",
-      iconPath: mdiScrewdriver,
+      iconPath: mdiUpdate,
       iconColor: "#5c995c",
       adminOnly: true,
-    },
+      core: false,
+      advancedOnly: false,
+    },*/
     {
       component: "logs",
       path: "/config/logs",
@@ -478,6 +481,7 @@ export const configSections: Record<string, PageNavigation[]> = {
       core: true,
       adminOnly: true,
     },
+    /*
     {
       path: "/config/backup",
       translationKey: "backup",
@@ -485,14 +489,15 @@ export const configSections: Record<string, PageNavigation[]> = {
       iconColor: "#0D47A1",
       component: "backup",
       adminOnly: true,
-    },
+    },*/
+    /*
     {
       path: "/config/analytics",
       translationKey: "analytics",
       iconPath: mdiShape,
       iconColor: "#f1c447",
       adminOnly: true,
-    },
+    },*/
     {
       path: "/config/ai-tasks",
       translationKey: "ai_tasks",
@@ -501,6 +506,7 @@ export const configSections: Record<string, PageNavigation[]> = {
       core: true,
       adminOnly: true,
     },
+    /*
     {
       path: "/config/labs",
       translationKey: "labs",
@@ -508,7 +514,7 @@ export const configSections: Record<string, PageNavigation[]> = {
       iconColor: "#b1b134",
       core: true,
       adminOnly: true,
-    },
+    },*/
     {
       path: "/config/network",
       translationKey: "network",
@@ -573,6 +579,7 @@ class HaPanelConfig extends HassRouterPage {
         tag: "ha-config-automation",
         load: () => import("./automation/ha-config-automation"),
       },
+
       backup: {
         tag: "ha-config-backup",
         load: () => import("./backup/ha-config-backup"),

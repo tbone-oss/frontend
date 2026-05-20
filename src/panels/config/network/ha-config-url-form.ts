@@ -98,11 +98,12 @@ class ConfigUrlForm extends SubscribeMixin(LitElement) {
     }
 
     return html`
-      <ha-card
-        outlined
+      <ha-card outlined>
+        <!--
         .header=${this.hass.localize("ui.panel.config.url.caption")}
-      >
+      >-->
         <div class="card-content">
+          <!--
           ${!canEdit
             ? html`
                 <ha-alert>
@@ -146,16 +147,16 @@ class ConfigUrlForm extends SubscribeMixin(LitElement) {
             <ha-input-copy
               auto-validate
               .validationMessage=${this.hass.localize(
-                "ui.panel.config.url.invalid_url"
-              )}
+            "ui.panel.config.url.invalid_url"
+          )}
               data-name="external_url"
               type="url"
               .maskedToggle=${!(this._showCustomExternalUrl && canEdit)}
               placeholder="https://example.duckdns.org:8123"
               .value=${externalUrl}
               .maskedValue=${this._showCustomExternalUrl && canEdit
-                ? undefined
-                : obfuscateUrl(externalUrl)}
+            ? undefined
+            : obfuscateUrl(externalUrl)}
               @change=${this._handleChange}
               .readonly=${!this._showCustomExternalUrl}
               .disabled=${disabled}
@@ -214,7 +215,7 @@ class ConfigUrlForm extends SubscribeMixin(LitElement) {
                     `}
               `
             : nothing}
-
+          -->
           <h4>
             ${this.hass.localize("ui.panel.config.url.internal_url_label")}
           </h4>

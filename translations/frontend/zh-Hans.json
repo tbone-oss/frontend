@@ -19,7 +19,7 @@
         "system-users": "用户"
     },
     "landing-page": {
-        "error_description": "安装 Univois-Smart-OS 时出错。请查看日志可获取更多信息。",
+        "error_description": "安装 Univois Smart OS 时出错。请查看日志可获取更多信息。",
         "error_title": "安装 Univois Smart OS 时出错",
         "header": "正在准备 Univois Smart OS",
         "hide_details": "隐藏详细信息",
@@ -1793,7 +1793,7 @@
                         "plug": "已拔出",
                         "power": "已清除（未检测到{device_class}）",
                         "presence": "离开",
-                        "problem": "已清除（未检测到{device_class}）",
+                        "problem": "已清除（未检测到跌倒）",
                         "running": "已清除（未检测到{device_class}）",
                         "safety": "安全",
                         "smoke": "已清除（未检测到{device_class}）",
@@ -1825,7 +1825,7 @@
                         "plug": "已插入",
                         "power": "检测到{device_class}",
                         "presence": "在家",
-                        "problem": "检测到{device_class}",
+                        "problem": "检测到跌倒",
                         "running": "检测到{device_class}",
                         "safety": "不安全",
                         "smoke": "检测到{device_class}",
